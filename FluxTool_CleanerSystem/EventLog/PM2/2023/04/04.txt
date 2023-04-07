@@ -1,0 +1,8 @@
+[2023-04-04, 13:13:32] CH2_Side_AirValve_o :  Off
+[2023-04-04, 13:13:32] CH2_WaterValve_o :  Off
+[2023-04-04, 13:13:32] CH2_Booster_AirValve_o :  Off
+[2023-04-04, 13:13:32] CH2_Air_Knife_o :  Off
+[2023-04-04, 13:19:27] CH2_Side_AirValve_o :  Off
+[2023-04-04, 13:19:27] CH2_WaterValve_o :  Off
+[2023-04-04, 13:19:27] CH2_Booster_AirValve_o :  Off
+[2023-04-04, 13:19:27] CH2_Air_Knife_o :  Off

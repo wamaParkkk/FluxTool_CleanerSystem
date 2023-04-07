@@ -1,0 +1,6 @@
+[2022-09-09, 02:18:01] Successfully read communication port information
+[2022-09-09, 02:18:01] Successfully opened port
+[2022-09-09, 02:20:19] Successfully read communication port information
+[2022-09-09, 02:20:19] Successfully opened port
+[2022-09-09, 02:23:47] Successfully read communication port information
+[2022-09-09, 02:23:47] Successfully opened port

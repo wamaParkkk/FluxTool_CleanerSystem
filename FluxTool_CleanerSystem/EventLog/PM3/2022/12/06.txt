@@ -1,0 +1,10 @@
+[2022-12-06, 18:45:46] CH3_Side_AirValve_o :  Off
+[2022-12-06, 18:45:46] CH3_WaterValve_o :  Off
+[2022-12-06, 18:45:46] CH3_Booster_AirValve_o :  Off
+[2022-12-06, 18:45:46] CH3_Air_Knife_o :  Off
+[2022-12-06, 18:45:58] FluorescentLamp_o :  On
+[2022-12-06, 19:10:32] CH3_Side_AirValve_o :  Off
+[2022-12-06, 19:10:32] CH3_WaterValve_o :  Off
+[2022-12-06, 19:10:32] CH3_Booster_AirValve_o :  Off
+[2022-12-06, 19:10:32] CH3_Air_Knife_o :  Off
+[2022-12-06, 19:10:45] FluorescentLamp_o :  On

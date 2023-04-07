@@ -1,0 +1,89 @@
+[2022-11-02, 12:58:36] CH1_Side_AirValve_o :  Off
+[2022-11-02, 12:58:36] CH1_WaterValve_o :  Off
+[2022-11-02, 12:58:36] CH1_Booster_AirValve_o :  Off
+[2022-11-02, 12:58:36] CH1_Air_Knife_o :  Off
+[2022-11-02, 12:58:36] Hot_Water_Pump_o :  Off
+[2022-11-02, 12:58:36] Hot_WaterHeater_o :  Off
+[2022-11-02, 12:58:36] Main_Water_Supply :  Off
+[2022-11-02, 12:58:36] Buzzer_o :  On
+[2022-11-02, 12:58:37] Buzzer_o :  Off
+[2022-11-02, 12:58:54] Simulation mode is on.
+[2022-11-02, 13:05:19] CH1_Side_AirValve_o :  Off
+[2022-11-02, 13:05:19] CH1_WaterValve_o :  Off
+[2022-11-02, 13:05:19] CH1_Booster_AirValve_o :  Off
+[2022-11-02, 13:05:19] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:19] Hot_Water_Pump_o :  Off
+[2022-11-02, 13:05:19] Hot_WaterHeater_o :  Off
+[2022-11-02, 13:05:19] Main_Water_Supply :  Off
+[2022-11-02, 13:05:19] Buzzer_o :  On
+[2022-11-02, 13:05:20] Buzzer_o :  Off
+[2022-11-02, 13:05:28] CH1_Side_AirValve_o :  Off
+[2022-11-02, 13:05:28] CH1_WaterValve_o :  Off
+[2022-11-02, 13:05:28] CH1_Booster_AirValve_o :  Off
+[2022-11-02, 13:05:28] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:28] Hot_Water_Pump_o :  Off
+[2022-11-02, 13:05:28] Hot_WaterHeater_o :  Off
+[2022-11-02, 13:05:28] Main_Water_Supply :  Off
+[2022-11-02, 13:05:28] Buzzer_o :  On
+[2022-11-02, 13:05:28] Buzzer_o :  Off
+[2022-11-02, 13:05:28] CH1_Side_AirValve_o :  Off
+[2022-11-02, 13:05:28] CH1_WaterValve_o :  Off
+[2022-11-02, 13:05:28] CH1_Booster_AirValve_o :  Off
+[2022-11-02, 13:05:28] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:28] Hot_Water_Pump_o :  Off
+[2022-11-02, 13:05:28] Hot_WaterHeater_o :  Off
+[2022-11-02, 13:05:28] Main_Water_Supply :  Off
+[2022-11-02, 13:05:28] Buzzer_o :  On
+[2022-11-02, 13:05:28] Buzzer_o :  Off
+[2022-11-02, 13:05:30] Simulation mode is on.
+[2022-11-02, 13:05:30] Hot_WaterHeater_o :  On
+[2022-11-02, 13:05:36] [LOG-IN] [000000_Amkor_Master]
+[2022-11-02, 13:05:43] START THE PROCESS.
+[2022-11-02, 13:05:43] Check the tool existence
+[2022-11-02, 13:05:43] Check the tool existence
+[2022-11-02, 13:05:43] Check the door Close
+[2022-11-02, 13:05:43] CH1_Door_Open_o :  Off
+[2022-11-02, 13:05:43] CH1_Door_Close_o :  On
+[2022-11-02, 13:05:43] Check the door Close
+[2022-11-02, 13:05:43] CH1_Door_Open_o :  Off
+[2022-11-02, 13:05:43] CH1_Door_Close_o :  On
+[2022-11-02, 13:05:45] Loading the process recipe file.
+[2022-11-02, 13:05:45] Loading the process recipe file.
+[2022-11-02, 13:05:45] Recipe file was successfully read.
+[2022-11-02, 13:05:45] Recipe name : SBA.csv
+[2022-11-02, 13:05:46] Recipe name : SBA.csv
+[2022-11-02, 13:05:46] Process Step : 1
+[2022-11-02, 13:05:46] Process Step : 1
+[2022-11-02, 13:05:46] CH1_WaterValve_o :  On
+[2022-11-02, 13:05:46] CH1_Booster_AirValve_o :  On
+[2022-11-02, 13:05:46] CH1_Booster_AirValve_o :  On
+[2022-11-02, 13:05:46] CH1_Side_AirValve_o :  Off
+[2022-11-02, 13:05:46] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:46] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:46] CH1_Pin_UpDn_o :  On
+[2022-11-02, 13:05:46] START THE CYLINDER MOVING.
+[2022-11-02, 13:05:46] Cylinder : Forward
+[2022-11-02, 13:05:46] CH1_Cylinder_Pwr_o :  On
+[2022-11-02, 13:05:46] CH1_Cylinder_Fwd_o :  On
+[2022-11-02, 13:05:46] CH1_Cylinder_Bwd_o :  Off
+[2022-11-02, 13:05:46] Check the process time : 300 sec.
+[2022-11-02, 13:05:46] Check the process time : 300 sec.
+[2022-11-02, 13:05:48] CH1_Cylinder_Fwd_o :  Off
+[2022-11-02, 13:05:48] Cylinder : Backward
+[2022-11-02, 13:05:48] CH1_Cylinder_Pwr_o :  On
+[2022-11-02, 13:05:48] CH1_Cylinder_Fwd_o :  Off
+[2022-11-02, 13:05:48] CH1_Cylinder_Bwd_o :  On
+[2022-11-02, 13:05:50] CH1_WaterValve_o :  Off
+[2022-11-02, 13:05:50] CH1_Booster_AirValve_o :  Off
+[2022-11-02, 13:05:50] CH1_Side_AirValve_o :  Off
+[2022-11-02, 13:05:50] CH1_Air_Knife_o :  Off
+[2022-11-02, 13:05:50] Process has stopped : Abort
+[2022-11-02, 13:05:50] CH1_Cylinder_Fwd_o :  Off
+[2022-11-02, 13:05:50] CH1_Cylinder_Bwd_o :  Off
+[2022-11-02, 13:05:50] Cylinder movement stopped : Abort
+[2022-11-02, 13:05:50] Hot_Water_Pump_o :  Off
+[2022-11-02, 13:05:50] Cylinder movement stopped : Abort
+[2022-11-02, 13:05:58] Hot_Water_Pump_o :  On
+[2022-11-02, 13:06:01] Hot_Water_Pump_o :  Off
+[2022-11-02, 13:19:14] Hot_Water_Pump_o :  On
+[2022-11-02, 13:19:15] Hot_Water_Pump_o :  Off

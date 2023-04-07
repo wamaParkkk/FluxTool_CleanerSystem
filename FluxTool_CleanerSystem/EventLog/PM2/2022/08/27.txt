@@ -1,0 +1,15 @@
+[2022-08-27, 08:35:02] CH2_Left_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH2_Right_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH2_WaterValve_o :  Off
+[2022-08-27, 08:35:02] CH2_Booster_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH2_Air_Knife_o :  Off
+[2022-08-27, 12:54:48] CH2_Left_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH2_Right_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH2_WaterValve_o :  Off
+[2022-08-27, 12:54:48] CH2_Booster_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH2_Air_Knife_o :  Off
+[2022-08-27, 12:55:38] CH2_Left_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH2_Right_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH2_WaterValve_o :  Off
+[2022-08-27, 12:55:38] CH2_Booster_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH2_Air_Knife_o :  Off

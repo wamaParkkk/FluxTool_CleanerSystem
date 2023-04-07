@@ -1,0 +1,16 @@
+[2022-12-16, 11:16:31] CH1_Side_AirValve_o :  Off
+[2022-12-16, 11:16:32] CH1_WaterValve_o :  Off
+[2022-12-16, 11:16:32] CH1_Booster_AirValve_o :  Off
+[2022-12-16, 11:16:32] CH1_Air_Knife_o :  Off
+[2022-12-16, 11:16:32] Hot_Water_Pump_o :  Off
+[2022-12-16, 11:16:32] Hot_WaterHeater_o :  Off
+[2022-12-16, 11:16:32] Main_Water_Supply :  Off
+[2022-12-16, 11:16:32] Buzzer_o :  On
+[2022-12-16, 11:16:44] Buzzer_o :  Off
+[2022-12-16, 11:16:49] [LOG-IN] [000000_Amkor_Master]
+[2022-12-16, 11:16:52] Simulation mode is on.
+[2022-12-16, 11:16:53] Hot_WaterHeater_o :  On
+[2022-12-16, 11:17:01] CH1_Door_Open_o :  Off
+[2022-12-16, 11:17:01] CH1_Door_Close_o :  On
+[2022-12-16, 11:17:09] CH1_Door_Open_o :  On
+[2022-12-16, 11:17:09] CH1_Door_Close_o :  Off

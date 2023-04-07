@@ -1,0 +1,14 @@
+[2022-09-17, 00:17:53] FluorescentLamp_o :  On
+[2022-09-17, 00:18:01] FluorescentLamp_o :  Off
+[2022-09-17, 05:08:02] FluorescentLamp_o :  On
+[2022-09-17, 05:08:12] FluorescentLamp_o :  Off
+[2022-09-17, 05:30:15] FluorescentLamp_o :  On
+[2022-09-17, 05:30:30] FluorescentLamp_o :  Off
+[2022-09-17, 13:20:56] FluorescentLamp_o :  On
+[2022-09-17, 13:21:06] FluorescentLamp_o :  Off
+[2022-09-17, 13:48:23] FluorescentLamp_o :  On
+[2022-09-17, 13:50:27] FluorescentLamp_o :  Off
+[2022-09-17, 14:57:43] FluorescentLamp_o :  On
+[2022-09-17, 15:01:19] FluorescentLamp_o :  Off
+[2022-09-17, 23:57:25] FluorescentLamp_o :  On
+[2022-09-17, 23:57:33] FluorescentLamp_o :  Off

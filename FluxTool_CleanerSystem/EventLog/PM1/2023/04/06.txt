@@ -1,0 +1,206 @@
+[2023-04-06, 08:22:20] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:22:20] CH1_WaterValve_o :  Off
+[2023-04-06, 08:22:20] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:22:20] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:22:20] Hot_Water_Pump_o :  Off
+[2023-04-06, 08:22:20] Hot_WaterHeater_o :  Off
+[2023-04-06, 08:22:20] Main_Water_Supply :  Off
+[2023-04-06, 08:22:20] Buzzer_o :  On
+[2023-04-06, 08:23:27] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:23:27] CH1_WaterValve_o :  Off
+[2023-04-06, 08:23:27] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:23:27] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:23:27] Hot_Water_Pump_o :  Off
+[2023-04-06, 08:23:27] Hot_WaterHeater_o :  Off
+[2023-04-06, 08:23:27] Main_Water_Supply :  Off
+[2023-04-06, 08:23:27] Buzzer_o :  On
+[2023-04-06, 08:26:35] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:26:35] CH1_WaterValve_o :  Off
+[2023-04-06, 08:26:35] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:26:35] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:26:35] Hot_Water_Pump_o :  Off
+[2023-04-06, 08:26:35] Hot_WaterHeater_o :  Off
+[2023-04-06, 08:26:35] Main_Water_Supply :  Off
+[2023-04-06, 08:26:35] Buzzer_o :  On
+[2023-04-06, 08:26:36] Buzzer_o :  Off
+[2023-04-06, 08:26:40] [LOG-IN] [000000_Amkor_Master]
+[2023-04-06, 08:26:54] Simulation mode is on.
+[2023-04-06, 08:27:34] START THE PROCESS.
+[2023-04-06, 08:27:34] START THE PROCESS.
+[2023-04-06, 08:27:34] Check the tool existence
+[2023-04-06, 08:27:34] Check the tool existence
+[2023-04-06, 08:27:34] Check the door Close
+[2023-04-06, 08:27:34] CH1_Door_Open_o :  Off
+[2023-04-06, 08:27:34] CH1_Door_Close_o :  On
+[2023-04-06, 08:27:34] CH1_Door_Open_o :  Off
+[2023-04-06, 08:27:34] CH1_Door_Close_o :  On
+[2023-04-06, 08:27:35] Loading the process recipe file.
+[2023-04-06, 08:27:35] Recipe file was successfully read.
+[2023-04-06, 08:27:35] Recipe name : Test.csv
+[2023-04-06, 08:27:35] Recipe file was successfully read.
+[2023-04-06, 08:27:35] Recipe name : Test.csv
+[2023-04-06, 08:27:35] Process Step : 1
+[2023-04-06, 08:27:35] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:35] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:35] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:35] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:35] CH1_Pin_UpDn_o :  On
+[2023-04-06, 08:27:35] Process Step : 1
+[2023-04-06, 08:27:35] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:35] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:35] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:35] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:35] CH1_Pin_UpDn_o :  On
+[2023-04-06, 08:27:35] START THE CYLINDER MOVING.
+[2023-04-06, 08:27:35] Cylinder : Forward
+[2023-04-06, 08:27:35] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:35] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:27:35] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:35] Check the process time : 10 sec.
+[2023-04-06, 08:27:35] Check the process time : 10 sec.
+[2023-04-06, 08:27:35] Hot_Water_Pump_o :  On
+[2023-04-06, 08:27:38] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:38] Cylinder : Backward
+[2023-04-06, 08:27:38] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:38] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:38] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:27:41] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:41] Cylinder : Forward
+[2023-04-06, 08:27:41] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:41] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:27:41] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:44] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:44] Cylinder : Backward
+[2023-04-06, 08:27:44] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:44] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:44] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:27:44] Check the End step.
+[2023-04-06, 08:27:44] Check the End step.
+[2023-04-06, 08:27:44] Process Step : 2
+[2023-04-06, 08:27:44] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:44] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:44] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:45] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:45] Process Step : 2
+[2023-04-06, 08:27:45] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:45] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:45] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:45] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:45] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:27:45] Check the process time : 10 sec.
+[2023-04-06, 08:27:45] Check the process time : 10 sec.
+[2023-04-06, 08:27:47] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:47] Cylinder : Forward
+[2023-04-06, 08:27:47] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:47] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:27:47] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:50] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:50] Cylinder : Backward
+[2023-04-06, 08:27:50] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:50] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:50] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:27:53] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:53] Cylinder : Forward
+[2023-04-06, 08:27:53] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:53] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:27:53] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:54] Check the End step.
+[2023-04-06, 08:27:54] Check the End step.
+[2023-04-06, 08:27:54] Process Step : 3
+[2023-04-06, 08:27:54] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:54] Process Step : 3
+[2023-04-06, 08:27:54] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:54] CH1_WaterValve_o :  On
+[2023-04-06, 08:27:54] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:54] CH1_Booster_AirValve_o :  On
+[2023-04-06, 08:27:54] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:54] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:27:54] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:27:54] Check the process time : 10 sec.
+[2023-04-06, 08:27:54] Check the process time : 10 sec.
+[2023-04-06, 08:27:56] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:56] Cylinder : Backward
+[2023-04-06, 08:27:56] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:56] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:27:56] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:27:57] CH1_Pin_UpDn_o :  On
+[2023-04-06, 08:27:57] CH1_Pin_UpDn_o :  On
+[2023-04-06, 08:27:59] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:27:59] Cylinder : Forward
+[2023-04-06, 08:27:59] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:27:59] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:27:59] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:01] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:28:01] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:28:02] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:02] Cylinder : Backward
+[2023-04-06, 08:28:02] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:02] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:02] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:28:03] Check the End step.
+[2023-04-06, 08:28:03] Check the End step.
+[2023-04-06, 08:28:03] Process Step : 4
+[2023-04-06, 08:28:03] CH1_WaterValve_o :  Off
+[2023-04-06, 08:28:03] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:28:03] CH1_Side_AirValve_o :  On
+[2023-04-06, 08:28:03] CH1_Air_Knife_o :  On
+[2023-04-06, 08:28:03] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:28:03] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:28:03] CH1_Side_AirValve_o :  On
+[2023-04-06, 08:28:03] CH1_Air_Knife_o :  On
+[2023-04-06, 08:28:03] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:28:03] Check the process time : 10 sec.
+[2023-04-06, 08:28:03] Check the process time : 10 sec.
+[2023-04-06, 08:28:05] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:05] Cylinder : Forward
+[2023-04-06, 08:28:05] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:05] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:28:05] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:08] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:08] Cylinder : Backward
+[2023-04-06, 08:28:08] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:08] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:08] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:28:11] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:11] Cylinder : Forward
+[2023-04-06, 08:28:11] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:11] CH1_Cylinder_Fwd_o :  On
+[2023-04-06, 08:28:11] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:12] Check the End step.
+[2023-04-06, 08:28:12] Check the End step.
+[2023-04-06, 08:28:12] CH1_WaterValve_o :  Off
+[2023-04-06, 08:28:12] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:28:12] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:28:12] CH1_WaterValve_o :  Off
+[2023-04-06, 08:28:12] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:28:12] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:28:12] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:28:12] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:28:12] CH1_Pin_UpDn_o :  Off
+[2023-04-06, 08:28:12] START THE CYLINDER HOME.
+[2023-04-06, 08:28:13] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:13] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:13] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:28:13] CH1_Cylinder_Pwr_o :  On
+[2023-04-06, 08:28:13] CH1_Cylinder_Fwd_o :  Off
+[2023-04-06, 08:28:13] CH1_Cylinder_Bwd_o :  On
+[2023-04-06, 08:28:14] CH1_Cylinder_Bwd_o :  Off
+[2023-04-06, 08:28:14] COMPLETE THE CYLINDER HOME.
+[2023-04-06, 08:28:15] Check the door Open
+[2023-04-06, 08:28:15] CH1_Door_Open_o :  On
+[2023-04-06, 08:28:15] CH1_Door_Close_o :  Off
+[2023-04-06, 08:28:17] Buzzer_o :  On
+[2023-04-06, 08:28:17] Hot_Water_Pump_o :  Off
+[2023-04-06, 08:28:52] CH1_Side_AirValve_o :  Off
+[2023-04-06, 08:28:52] CH1_WaterValve_o :  Off
+[2023-04-06, 08:28:52] CH1_Booster_AirValve_o :  Off
+[2023-04-06, 08:28:52] CH1_Air_Knife_o :  Off
+[2023-04-06, 08:28:52] Hot_Water_Pump_o :  Off
+[2023-04-06, 08:28:52] Hot_WaterHeater_o :  Off
+[2023-04-06, 08:28:52] Main_Water_Supply :  Off
+[2023-04-06, 08:28:52] Buzzer_o :  On
+[2023-04-06, 08:28:53] Buzzer_o :  Off
+[2023-04-06, 08:28:58] [LOG-IN] [000000_Amkor_Master]
+[2023-04-06, 08:29:00] Simulation mode is on.
+[2023-04-06, 08:29:07] Hot_Water_Pump_o :  On
+[2023-04-06, 08:29:49] Hot_Water_Pump_o :  Off

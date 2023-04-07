@@ -1,0 +1,40 @@
+[2022-11-04, 10:03:51] Successfully read communication port information
+[2022-11-04, 10:03:51] Failed to opened port
+[2022-11-04, 10:03:51] Heater controller initialization failed
+[2022-11-04, 10:03:51] Heater communication driver has been terminated
+[2022-11-04, 10:15:12] Successfully read communication port information
+[2022-11-04, 10:15:12] Failed to opened port
+[2022-11-04, 10:15:12] Heater controller initialization failed
+[2022-11-04, 10:15:12] Heater communication driver has been terminated
+[2022-11-04, 11:06:24] Successfully read communication port information
+[2022-11-04, 11:06:24] Failed to opened port
+[2022-11-04, 11:06:24] Heater controller initialization failed
+[2022-11-04, 11:06:24] Heater communication driver has been terminated
+[2022-11-04, 11:11:09] Successfully read communication port information
+[2022-11-04, 11:11:09] Failed to opened port
+[2022-11-04, 11:11:09] Heater controller initialization failed
+[2022-11-04, 11:11:09] Heater communication driver has been terminated
+[2022-11-04, 14:28:04] Successfully read communication port information
+[2022-11-04, 14:28:04] Failed to opened port
+[2022-11-04, 14:28:04] Heater controller initialization failed
+[2022-11-04, 14:28:04] Heater communication driver has been terminated
+[2022-11-04, 14:59:58] Successfully read communication port information
+[2022-11-04, 14:59:58] Failed to opened port
+[2022-11-04, 14:59:58] Heater controller initialization failed
+[2022-11-04, 14:59:58] Heater communication driver has been terminated
+[2022-11-04, 15:12:48] Successfully read communication port information
+[2022-11-04, 15:12:48] Failed to opened port
+[2022-11-04, 15:12:48] Heater controller initialization failed
+[2022-11-04, 15:12:48] Heater communication driver has been terminated
+[2022-11-04, 16:39:35] Successfully read communication port information
+[2022-11-04, 16:39:35] Failed to opened port
+[2022-11-04, 16:39:35] Heater controller initialization failed
+[2022-11-04, 16:39:35] Heater communication driver has been terminated
+[2022-11-04, 16:52:29] Successfully read communication port information
+[2022-11-04, 16:52:29] Failed to opened port
+[2022-11-04, 16:52:29] Heater controller initialization failed
+[2022-11-04, 16:52:29] Heater communication driver has been terminated
+[2022-11-04, 16:54:37] Successfully read communication port information
+[2022-11-04, 16:54:37] Failed to opened port
+[2022-11-04, 16:54:37] Heater controller initialization failed
+[2022-11-04, 16:54:37] Heater communication driver has been terminated

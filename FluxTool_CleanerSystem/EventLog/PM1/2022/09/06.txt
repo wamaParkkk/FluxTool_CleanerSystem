@@ -1,0 +1,18 @@
+[2022-09-06, 17:11:38] [LOG-IN] [000000_Amkor_Master]
+[2022-09-06, 17:12:29] Main_Water_Supply :  On
+[2022-09-06, 17:13:05] Main_Water_Supply :  Off
+[2022-09-06, 17:13:46] [LOG-IN] [000000_Amkor_Master]
+[2022-09-06, 17:14:12] Hot_Water_Pump_o :  On
+[2022-09-06, 17:15:38] Main_Water_Supply :  On
+[2022-09-06, 17:15:56] Main_Water_Supply :  Off
+[2022-09-06, 17:17:13] Main_Water_Supply :  On
+[2022-09-06, 17:17:21] Hot_Water_Pump_o :  Off
+[2022-09-06, 17:17:27] Hot_Water_Pump_o :  On
+[2022-09-06, 17:17:29] Main_Water_Supply :  Off
+[2022-09-06, 17:18:47] Main_Water_Supply :  On
+[2022-09-06, 17:19:07] Main_Water_Supply :  Off
+[2022-09-06, 17:20:24] Main_Water_Supply :  On
+[2022-09-06, 17:20:41] Main_Water_Supply :  Off
+[2022-09-06, 17:21:06] Hot_Water_Pump_o :  Off
+[2022-09-06, 17:21:52] Main_Water_Supply :  On
+[2022-09-06, 17:21:58] Main_Water_Supply :  Off

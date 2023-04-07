@@ -1,0 +1,22 @@
+[2022-09-09, 05:29:18] START THE INITIALIZE.
+[2022-09-09, 05:29:18] CH2_WaterValve_o :  Off
+[2022-09-09, 05:29:18] CH2_Booster_AirValve_o :  Off
+[2022-09-09, 05:29:18] CH2_Side_AirValve_o :  Off
+[2022-09-09, 05:29:18] CH2_Air_Knife_o :  Off
+[2022-09-09, 05:29:18] Check the door Close
+[2022-09-09, 05:29:18] CH2_Door_Open_o :  Off
+[2022-09-09, 05:29:18] CH2_Door_Close_o :  On
+[2022-09-09, 05:29:22] Pin : Down
+[2022-09-09, 05:29:22] CH2_Pin_UpDn_o :  Off
+[2022-09-09, 05:29:22] CH2_Cylinder_Fwd_o :  Off
+[2022-09-09, 05:29:22] CH2_Cylinder_Fwd_o :  Off
+[2022-09-09, 05:29:22] CH2_Cylinder_Bwd_o :  Off
+[2022-09-09, 05:29:22] CH2_Cylinder_Bwd_o :  Off
+[2022-09-09, 05:29:22] Cylinder movement stopped : Abort
+[2022-09-09, 05:29:22] Cylinder movement stopped : Abort
+[2022-09-09, 05:29:23] START THE CYLINDER HOME.
+[2022-09-09, 05:29:23] COMPLETE THE CYLINDER HOME.
+[2022-09-09, 05:29:24] Check the door Open
+[2022-09-09, 05:29:24] CH2_Door_Open_o :  On
+[2022-09-09, 05:29:24] CH2_Door_Close_o :  Off
+[2022-09-09, 05:29:29] INIT COMPLETED.

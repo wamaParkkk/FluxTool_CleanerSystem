@@ -1,0 +1,8 @@
+[2022-12-12, 18:49:00] Successfully read communication port information
+[2022-12-12, 18:49:00] Failed to opened port
+[2022-12-12, 18:49:00] Heater controller initialization failed
+[2022-12-12, 18:49:00] Heater communication driver has been terminated
+[2022-12-12, 18:59:15] Successfully read communication port information
+[2022-12-12, 18:59:15] Failed to opened port
+[2022-12-12, 18:59:15] Heater controller initialization failed
+[2022-12-12, 18:59:15] Heater communication driver has been terminated

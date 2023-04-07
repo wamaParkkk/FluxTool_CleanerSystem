@@ -1,0 +1,352 @@
+[2022-10-31, 09:12:25] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:12:25] CH1_WaterValve_o :  Off
+[2022-10-31, 09:12:25] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:12:25] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:12:25] Hot_Water_Pump_o :  Off
+[2022-10-31, 09:12:25] Hot_WaterHeater_o :  Off
+[2022-10-31, 09:12:25] Main_Water_Supply :  Off
+[2022-10-31, 09:12:25] Buzzer_o :  On
+[2022-10-31, 09:12:26] Buzzer_o :  Off
+[2022-10-31, 09:12:32] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 09:12:43] START THE INITIALIZE.
+[2022-10-31, 09:12:43] CH1_WaterValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:12:43] CH1_WaterValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:12:43] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:12:43] Check the door Close
+[2022-10-31, 09:12:43] CH1_Door_Open_o :  Off
+[2022-10-31, 09:12:43] CH1_Door_Close_o :  On
+[2022-10-31, 09:12:43] Check the door Close
+[2022-10-31, 09:12:43] CH1_Door_Open_o :  Off
+[2022-10-31, 09:12:43] CH1_Door_Close_o :  On
+[2022-10-31, 09:12:52] CH1_WaterValve_o :  Off
+[2022-10-31, 09:12:52] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:12:52] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:12:52] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:12:52] CH1_WaterValve_o :  Off
+[2022-10-31, 09:12:52] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:12:52] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:12:52] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:12:52] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:12:52] Buzzer_o :  On
+[2022-10-31, 09:12:53] Buzzer_o :  Off
+[2022-10-31, 09:12:55] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:12:55] Cylinder movement stopped : Abort
+[2022-10-31, 09:12:56] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:12:57] Cylinder movement stopped : Abort
+[2022-10-31, 09:13:01] Main_Water_Supply :  On
+[2022-10-31, 09:13:01] CH1_WaterValve_o :  Off
+[2022-10-31, 09:13:01] CH1_WaterValve_o :  Off
+[2022-10-31, 09:13:01] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:13:01] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:13:01] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:13:01] Process has stopped : Abort
+[2022-10-31, 09:13:02] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:13:02] Process has stopped : Abort
+[2022-10-31, 09:13:02] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:13:02] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:13:03] Cylinder movement stopped : Abort
+[2022-10-31, 09:13:03] [INTERLOCK#1] EMO switch is on
+[2022-10-31, 09:13:04] Cylinder movement stopped : Abort
+[2022-10-31, 09:13:14] Buzzer_o :  Off
+[2022-10-31, 09:13:14] Buzzer_o :  Off
+[2022-10-31, 09:13:43] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:13:43] CH1_WaterValve_o :  Off
+[2022-10-31, 09:13:43] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:13:43] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:13:43] Hot_Water_Pump_o :  Off
+[2022-10-31, 09:13:43] Hot_WaterHeater_o :  Off
+[2022-10-31, 09:13:43] Main_Water_Supply :  Off
+[2022-10-31, 09:13:43] Buzzer_o :  On
+[2022-10-31, 09:13:44] Buzzer_o :  Off
+[2022-10-31, 09:14:16] Main_Water_Supply :  On
+[2022-10-31, 09:14:32] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 09:18:12] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:18:12] CH1_WaterValve_o :  Off
+[2022-10-31, 09:18:12] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:18:12] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:18:12] Hot_Water_Pump_o :  Off
+[2022-10-31, 09:18:12] Hot_WaterHeater_o :  Off
+[2022-10-31, 09:18:12] Main_Water_Supply :  Off
+[2022-10-31, 09:18:12] Buzzer_o :  On
+[2022-10-31, 09:18:13] Buzzer_o :  Off
+[2022-10-31, 09:18:21] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 09:58:34] CH1_Side_AirValve_o :  Off
+[2022-10-31, 09:58:34] CH1_WaterValve_o :  Off
+[2022-10-31, 09:58:34] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 09:58:34] CH1_Air_Knife_o :  Off
+[2022-10-31, 09:58:34] Hot_Water_Pump_o :  Off
+[2022-10-31, 09:58:34] Hot_WaterHeater_o :  Off
+[2022-10-31, 09:58:34] Main_Water_Supply :  Off
+[2022-10-31, 09:58:34] Buzzer_o :  On
+[2022-10-31, 09:58:34] Buzzer_o :  Off
+[2022-10-31, 09:58:36] Simulation mode is on.
+[2022-10-31, 09:58:37] Hot_WaterHeater_o :  On
+[2022-10-31, 09:58:41] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 11:31:38] CH1_Side_AirValve_o :  Off
+[2022-10-31, 11:31:38] CH1_WaterValve_o :  Off
+[2022-10-31, 11:31:38] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 11:31:38] CH1_Air_Knife_o :  Off
+[2022-10-31, 11:31:38] Hot_Water_Pump_o :  Off
+[2022-10-31, 11:31:38] Hot_WaterHeater_o :  Off
+[2022-10-31, 11:31:38] Main_Water_Supply :  Off
+[2022-10-31, 11:31:38] Buzzer_o :  On
+[2022-10-31, 11:31:39] Buzzer_o :  Off
+[2022-10-31, 11:32:02] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 11:32:11] Main_Water_Supply :  On
+[2022-10-31, 11:32:21] CH1_Side_AirValve_o :  Off
+[2022-10-31, 11:32:21] CH1_WaterValve_o :  Off
+[2022-10-31, 11:32:21] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 11:32:21] CH1_Air_Knife_o :  Off
+[2022-10-31, 11:32:21] Hot_Water_Pump_o :  Off
+[2022-10-31, 11:32:21] Hot_WaterHeater_o :  Off
+[2022-10-31, 11:32:21] Main_Water_Supply :  Off
+[2022-10-31, 11:32:21] Buzzer_o :  On
+[2022-10-31, 11:32:22] Buzzer_o :  Off
+[2022-10-31, 11:32:23] CH1_Side_AirValve_o :  Off
+[2022-10-31, 11:32:23] CH1_WaterValve_o :  Off
+[2022-10-31, 11:32:23] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 11:32:23] CH1_Air_Knife_o :  Off
+[2022-10-31, 11:32:23] Hot_Water_Pump_o :  Off
+[2022-10-31, 11:32:23] Hot_WaterHeater_o :  Off
+[2022-10-31, 11:32:23] Main_Water_Supply :  Off
+[2022-10-31, 11:32:23] Buzzer_o :  On
+[2022-10-31, 11:32:23] Buzzer_o :  Off
+[2022-10-31, 11:32:44] Main_Water_Supply :  On
+[2022-10-31, 11:37:16] CH1_Side_AirValve_o :  Off
+[2022-10-31, 11:37:16] CH1_WaterValve_o :  Off
+[2022-10-31, 11:37:16] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 11:37:16] CH1_Air_Knife_o :  Off
+[2022-10-31, 11:37:16] Hot_Water_Pump_o :  Off
+[2022-10-31, 11:37:16] Hot_WaterHeater_o :  Off
+[2022-10-31, 11:37:16] Main_Water_Supply :  Off
+[2022-10-31, 11:37:16] Buzzer_o :  On
+[2022-10-31, 11:37:16] Buzzer_o :  Off
+[2022-10-31, 11:42:03] CH1_Side_AirValve_o :  Off
+[2022-10-31, 11:42:03] CH1_WaterValve_o :  Off
+[2022-10-31, 11:42:03] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 11:42:03] CH1_Air_Knife_o :  Off
+[2022-10-31, 11:42:03] Hot_Water_Pump_o :  Off
+[2022-10-31, 11:42:03] Hot_WaterHeater_o :  Off
+[2022-10-31, 11:42:03] Main_Water_Supply :  Off
+[2022-10-31, 11:42:03] Buzzer_o :  On
+[2022-10-31, 11:42:04] Buzzer_o :  Off
+[2022-10-31, 15:49:25] CH1_Side_AirValve_o :  Off
+[2022-10-31, 15:49:25] CH1_WaterValve_o :  Off
+[2022-10-31, 15:49:25] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 15:49:25] CH1_Air_Knife_o :  Off
+[2022-10-31, 15:49:25] Hot_Water_Pump_o :  Off
+[2022-10-31, 15:49:25] Hot_WaterHeater_o :  Off
+[2022-10-31, 15:49:25] Main_Water_Supply :  Off
+[2022-10-31, 15:49:25] Buzzer_o :  On
+[2022-10-31, 15:49:26] Buzzer_o :  Off
+[2022-10-31, 15:49:58] Main_Water_Supply :  On
+[2022-10-31, 15:56:07] CH1_Side_AirValve_o :  Off
+[2022-10-31, 15:56:07] CH1_WaterValve_o :  Off
+[2022-10-31, 15:56:07] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 15:56:07] CH1_Air_Knife_o :  Off
+[2022-10-31, 15:56:07] Hot_Water_Pump_o :  Off
+[2022-10-31, 15:56:07] Hot_WaterHeater_o :  Off
+[2022-10-31, 15:56:07] Main_Water_Supply :  Off
+[2022-10-31, 15:56:07] Buzzer_o :  On
+[2022-10-31, 15:56:33] CH1_Side_AirValve_o :  Off
+[2022-10-31, 15:56:33] CH1_WaterValve_o :  Off
+[2022-10-31, 15:56:33] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 15:56:33] CH1_Air_Knife_o :  Off
+[2022-10-31, 15:56:33] Hot_Water_Pump_o :  Off
+[2022-10-31, 15:56:33] Hot_WaterHeater_o :  Off
+[2022-10-31, 15:56:33] Main_Water_Supply :  Off
+[2022-10-31, 15:56:33] Buzzer_o :  On
+[2022-10-31, 15:56:39] Buzzer_o :  Off
+[2022-10-31, 16:05:07] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:07] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:07] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:07] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:07] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:07] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:07] Main_Water_Supply :  Off
+[2022-10-31, 16:05:07] Buzzer_o :  On
+[2022-10-31, 16:05:07] Buzzer_o :  Off
+[2022-10-31, 16:05:23] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:23] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:23] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:23] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:23] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:23] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:23] Main_Water_Supply :  Off
+[2022-10-31, 16:05:23] Buzzer_o :  On
+[2022-10-31, 16:05:23] Buzzer_o :  Off
+[2022-10-31, 16:05:23] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:23] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:23] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:23] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:24] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:24] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:24] Main_Water_Supply :  Off
+[2022-10-31, 16:05:24] Buzzer_o :  On
+[2022-10-31, 16:05:24] Buzzer_o :  Off
+[2022-10-31, 16:05:32] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:32] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:32] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:32] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:32] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:32] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:32] Main_Water_Supply :  Off
+[2022-10-31, 16:05:32] Buzzer_o :  On
+[2022-10-31, 16:05:32] Buzzer_o :  Off
+[2022-10-31, 16:05:34] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:34] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:34] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:34] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:34] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:34] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:34] Main_Water_Supply :  Off
+[2022-10-31, 16:05:34] Buzzer_o :  On
+[2022-10-31, 16:05:34] Buzzer_o :  Off
+[2022-10-31, 16:05:39] Main_Water_Supply :  On
+[2022-10-31, 16:05:45] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:45] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:45] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:45] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:45] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:45] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:45] Main_Water_Supply :  Off
+[2022-10-31, 16:05:45] Buzzer_o :  On
+[2022-10-31, 16:05:46] Buzzer_o :  Off
+[2022-10-31, 16:05:46] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:05:46] CH1_WaterValve_o :  Off
+[2022-10-31, 16:05:46] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:05:46] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:05:46] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:05:46] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:05:46] Main_Water_Supply :  Off
+[2022-10-31, 16:05:46] Buzzer_o :  On
+[2022-10-31, 16:05:46] Buzzer_o :  Off
+[2022-10-31, 16:05:52] Simulation mode is on.
+[2022-10-31, 16:05:55] Hot_WaterHeater_o :  On
+[2022-10-31, 16:11:46] CH1_Side_AirValve_o :  Off
+[2022-10-31, 16:11:46] CH1_WaterValve_o :  Off
+[2022-10-31, 16:11:46] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 16:11:46] CH1_Air_Knife_o :  Off
+[2022-10-31, 16:11:46] Hot_Water_Pump_o :  Off
+[2022-10-31, 16:11:46] Hot_WaterHeater_o :  Off
+[2022-10-31, 16:11:46] Main_Water_Supply :  Off
+[2022-10-31, 16:11:46] Buzzer_o :  On
+[2022-10-31, 16:11:47] Buzzer_o :  Off
+[2022-10-31, 16:11:55] Simulation mode is on.
+[2022-10-31, 16:11:58] Hot_WaterHeater_o :  On
+[2022-10-31, 17:34:51] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:34:51] CH1_WaterValve_o :  Off
+[2022-10-31, 17:34:51] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 17:34:51] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:34:51] Hot_Water_Pump_o :  Off
+[2022-10-31, 17:34:51] Hot_WaterHeater_o :  Off
+[2022-10-31, 17:34:51] Main_Water_Supply :  Off
+[2022-10-31, 17:34:51] Buzzer_o :  On
+[2022-10-31, 17:34:52] Buzzer_o :  Off
+[2022-10-31, 17:34:57] [LOG-IN] [000000_Amkor_Master]
+[2022-10-31, 17:35:00] Simulation mode is on.
+[2022-10-31, 17:35:00] Hot_WaterHeater_o :  On
+[2022-10-31, 17:35:16] START THE INITIALIZE.
+[2022-10-31, 17:35:16] START THE INITIALIZE.
+[2022-10-31, 17:35:16] CH1_WaterValve_o :  Off
+[2022-10-31, 17:35:16] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 17:35:16] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:16] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:16] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 17:35:16] Check the door Close
+[2022-10-31, 17:35:16] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:16] CH1_Door_Open_o :  Off
+[2022-10-31, 17:35:16] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:16] Check the door Close
+[2022-10-31, 17:35:16] CH1_Door_Open_o :  Off
+[2022-10-31, 17:35:16] CH1_Door_Close_o :  On
+[2022-10-31, 17:35:18] Pin : Down
+[2022-10-31, 17:35:18] CH1_Pin_UpDn_o :  Off
+[2022-10-31, 17:35:18] Pin : Down
+[2022-10-31, 17:35:18] CH1_Pin_UpDn_o :  Off
+[2022-10-31, 17:35:19] START THE CYLINDER HOME.
+[2022-10-31, 17:35:19] START THE CYLINDER HOME.
+[2022-10-31, 17:35:19] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:19] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:19] CH1_Cylinder_Bwd_o :  On
+[2022-10-31, 17:35:19] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:19] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:19] CH1_Cylinder_Bwd_o :  On
+[2022-10-31, 17:35:21] CH1_Cylinder_Bwd_o :  Off
+[2022-10-31, 17:35:21] COMPLETE THE CYLINDER HOME.
+[2022-10-31, 17:35:22] Check the door Open
+[2022-10-31, 17:35:22] Check the door Open
+[2022-10-31, 17:35:22] CH1_Door_Open_o :  On
+[2022-10-31, 17:35:22] CH1_Door_Open_o :  On
+[2022-10-31, 17:35:22] CH1_Door_Close_o :  Off
+[2022-10-31, 17:35:22] CH1_Door_Close_o :  Off
+[2022-10-31, 17:35:25] INIT COMPLETED.
+[2022-10-31, 17:35:34] START THE PROCESS.
+[2022-10-31, 17:35:34] Check the tool existence
+[2022-10-31, 17:35:34] Check the tool existence
+[2022-10-31, 17:35:34] Check the door Close
+[2022-10-31, 17:35:34] CH1_Door_Open_o :  Off
+[2022-10-31, 17:35:34] CH1_Door_Close_o :  On
+[2022-10-31, 17:35:34] Check the door Close
+[2022-10-31, 17:35:34] CH1_Door_Open_o :  Off
+[2022-10-31, 17:35:34] CH1_Door_Close_o :  On
+[2022-10-31, 17:35:37] Loading the process recipe file.
+[2022-10-31, 17:35:37] Loading the process recipe file.
+[2022-10-31, 17:35:37] Recipe file was successfully read.
+[2022-10-31, 17:35:37] Recipe name : SBA.csv
+[2022-10-31, 17:35:37] Recipe name : SBA.csv
+[2022-10-31, 17:35:37] Process Step : 1
+[2022-10-31, 17:35:37] CH1_WaterValve_o :  On
+[2022-10-31, 17:35:37] CH1_Booster_AirValve_o :  On
+[2022-10-31, 17:35:37] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:37] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:37] CH1_Pin_UpDn_o :  On
+[2022-10-31, 17:35:37] Process Step : 1
+[2022-10-31, 17:35:37] CH1_WaterValve_o :  On
+[2022-10-31, 17:35:37] CH1_Booster_AirValve_o :  On
+[2022-10-31, 17:35:37] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:37] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:37] CH1_Pin_UpDn_o :  On
+[2022-10-31, 17:35:37] START THE CYLINDER MOVING.
+[2022-10-31, 17:35:37] Cylinder : Forward
+[2022-10-31, 17:35:37] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:37] CH1_Cylinder_Fwd_o :  On
+[2022-10-31, 17:35:37] CH1_Cylinder_Bwd_o :  Off
+[2022-10-31, 17:35:37] Check the process time : 300 sec.
+[2022-10-31, 17:35:37] Hot_Water_Pump_o :  On
+[2022-10-31, 17:35:37] Cylinder : Forward
+[2022-10-31, 17:35:37] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:37] CH1_Cylinder_Fwd_o :  On
+[2022-10-31, 17:35:37] CH1_Cylinder_Bwd_o :  Off
+[2022-10-31, 17:35:37] Check the process time : 300 sec.
+[2022-10-31, 17:35:39] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:39] Cylinder : Backward
+[2022-10-31, 17:35:39] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:39] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:39] CH1_Cylinder_Bwd_o :  On
+[2022-10-31, 17:35:39] Cylinder : Backward
+[2022-10-31, 17:35:39] CH1_Cylinder_Pwr_o :  On
+[2022-10-31, 17:35:39] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:39] CH1_Cylinder_Bwd_o :  On
+[2022-10-31, 17:35:41] CH1_WaterValve_o :  Off
+[2022-10-31, 17:35:41] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 17:35:41] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:41] CH1_WaterValve_o :  Off
+[2022-10-31, 17:35:41] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:41] CH1_Booster_AirValve_o :  Off
+[2022-10-31, 17:35:41] Process has stopped : Abort
+[2022-10-31, 17:35:41] CH1_Side_AirValve_o :  Off
+[2022-10-31, 17:35:41] CH1_Air_Knife_o :  Off
+[2022-10-31, 17:35:41] Process has stopped : Abort
+[2022-10-31, 17:35:41] CH1_Cylinder_Fwd_o :  Off
+[2022-10-31, 17:35:41] CH1_Cylinder_Bwd_o :  Off
+[2022-10-31, 17:35:41] Cylinder movement stopped : Abort
+[2022-10-31, 17:35:41] CH1_Cylinder_Bwd_o :  Off
+[2022-10-31, 17:35:41] Cylinder movement stopped : Abort
+[2022-10-31, 17:36:31] Hot_Water_Pump_o :  On
+[2022-10-31, 17:37:35] Hot_Water_Pump_o :  Off

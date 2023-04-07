@@ -1,0 +1,589 @@
+[2022-08-30, 08:25:30] CH2_Side_AirValve_o :  Off
+[2022-08-30, 08:25:30] CH2_WaterValve_o :  Off
+[2022-08-30, 08:25:30] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 08:25:30] CH2_Air_Knife_o :  Off
+[2022-08-30, 08:44:35] CH2_Side_AirValve_o :  Off
+[2022-08-30, 08:44:35] CH2_WaterValve_o :  Off
+[2022-08-30, 08:44:35] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 08:44:35] CH2_Air_Knife_o :  Off
+[2022-08-30, 09:02:52] CH2_Side_AirValve_o :  Off
+[2022-08-30, 09:02:52] CH2_WaterValve_o :  Off
+[2022-08-30, 09:02:52] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 09:02:52] CH2_Air_Knife_o :  Off
+[2022-08-30, 09:10:09] CH2_Side_AirValve_o :  Off
+[2022-08-30, 09:10:09] CH2_WaterValve_o :  Off
+[2022-08-30, 09:10:09] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 09:10:09] CH2_Air_Knife_o :  Off
+[2022-08-30, 09:12:43] CH2_Side_AirValve_o :  Off
+[2022-08-30, 09:12:43] CH2_WaterValve_o :  Off
+[2022-08-30, 09:12:43] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 09:12:43] CH2_Air_Knife_o :  Off
+[2022-08-30, 12:59:06] CH2_Side_AirValve_o :  Off
+[2022-08-30, 12:59:06] CH2_WaterValve_o :  Off
+[2022-08-30, 12:59:06] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 12:59:06] CH2_Air_Knife_o :  Off
+[2022-08-30, 16:26:59] CH2_Side_AirValve_o :  Off
+[2022-08-30, 16:26:59] CH2_WaterValve_o :  Off
+[2022-08-30, 16:26:59] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 16:26:59] CH2_Air_Knife_o :  Off
+[2022-08-30, 16:29:40] CH2_Side_AirValve_o :  Off
+[2022-08-30, 16:29:40] CH2_WaterValve_o :  Off
+[2022-08-30, 16:29:40] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 16:29:40] CH2_Air_Knife_o :  Off
+[2022-08-30, 16:43:01] CH2_Side_AirValve_o :  Off
+[2022-08-30, 16:43:01] CH2_WaterValve_o :  Off
+[2022-08-30, 16:43:01] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 16:43:01] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:05:37] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:05:37] CH2_WaterValve_o :  Off
+[2022-08-30, 17:05:37] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:05:37] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:06:09] START THE PROCESS.
+[2022-08-30, 17:06:09] Check the tool existence
+[2022-08-30, 17:06:09] Check the door Close
+[2022-08-30, 17:06:09] CH2_Door_Open_o :  Off
+[2022-08-30, 17:06:09] CH2_Door_Close_o :  On
+[2022-08-30, 17:06:10] Loading the process recipe file.
+[2022-08-30, 17:06:10] Recipe file was successfully read.
+[2022-08-30, 17:06:10] Recipe name : Test.csv
+[2022-08-30, 17:06:10] Process Step : 1
+[2022-08-30, 17:06:10] CH2_WaterValve_o :  Off
+[2022-08-30, 17:06:10] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:06:10] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:06:10] CH2_Air_Knife_o :  On
+[2022-08-30, 17:06:10] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:06:10] START THE CYLINDER MOVING.
+[2022-08-30, 17:06:10] Cylinder : Forward
+[2022-08-30, 17:06:10] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:10] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:10] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:11] Check the process time : 10 sec.
+[2022-08-30, 17:06:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:13] Cylinder : Backward
+[2022-08-30, 17:06:13] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:13] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:16] Cylinder : Forward
+[2022-08-30, 17:06:16] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:16] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:19] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:19] Cylinder : Backward
+[2022-08-30, 17:06:19] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:19] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:19] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:20] Check the End step.
+[2022-08-30, 17:06:20] Process Step : 2
+[2022-08-30, 17:06:20] CH2_WaterValve_o :  On
+[2022-08-30, 17:06:20] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:06:20] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:06:20] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:06:21] Check the process time : 10 sec.
+[2022-08-30, 17:06:22] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:22] Cylinder : Forward
+[2022-08-30, 17:06:22] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:22] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:22] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:25] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:06:25] Cylinder : Backward
+[2022-08-30, 17:06:25] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:25] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:28] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:28] Cylinder : Forward
+[2022-08-30, 17:06:28] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:28] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:28] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:30] Check the End step.
+[2022-08-30, 17:06:30] Process Step : 3
+[2022-08-30, 17:06:31] CH2_WaterValve_o :  Off
+[2022-08-30, 17:06:31] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:06:31] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:06:31] CH2_Air_Knife_o :  On
+[2022-08-30, 17:06:31] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:31] Check the process time : 10 sec.
+[2022-08-30, 17:06:31] Cylinder : Backward
+[2022-08-30, 17:06:31] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:31] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:31] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:34] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:34] Cylinder : Forward
+[2022-08-30, 17:06:34] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:34] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:34] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:35] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:06:37] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:37] Cylinder : Backward
+[2022-08-30, 17:06:37] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:37] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:37] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:40] CH3_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:40] Check the End step.
+[2022-08-30, 17:06:40] Cylinder : Forward
+[2022-08-30, 17:06:40] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:40] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:40] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:41] Process Step : 4
+[2022-08-30, 17:06:41] CH2_WaterValve_o :  On
+[2022-08-30, 17:06:41] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:06:41] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:06:41] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:06:41] Check the process time : 10 sec.
+[2022-08-30, 17:06:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:43] Cylinder : Backward
+[2022-08-30, 17:06:43] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:43] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:45] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:06:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:46] Cylinder : Forward
+[2022-08-30, 17:06:46] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:46] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:49] Cylinder : Backward
+[2022-08-30, 17:06:49] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:49] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:50] Check the End step.
+[2022-08-30, 17:06:51] Process Step : 5
+[2022-08-30, 17:06:51] CH2_WaterValve_o :  Off
+[2022-08-30, 17:06:51] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:06:51] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:06:51] CH2_Air_Knife_o :  On
+[2022-08-30, 17:06:51] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:06:51] Check the process time : 10 sec.
+[2022-08-30, 17:06:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:52] Cylinder : Forward
+[2022-08-30, 17:06:52] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:52] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:55] Cylinder : Backward
+[2022-08-30, 17:06:55] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:06:55] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:06:58] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:06:58] Cylinder : Forward
+[2022-08-30, 17:06:58] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:06:58] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:06:58] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:00] Check the End step.
+[2022-08-30, 17:07:00] CH2_WaterValve_o :  Off
+[2022-08-30, 17:07:00] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:07:00] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:07:00] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:07:00] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:07:01] START THE CYLINDER HOME.
+[2022-08-30, 17:07:01] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:01] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:01] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:04] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:04] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:04] COMPLETE THE CYLINDER HOME.
+[2022-08-30, 17:07:05] Check the door Open
+[2022-08-30, 17:07:05] CH2_Door_Open_o :  On
+[2022-08-30, 17:07:05] CH2_Door_Close_o :  Off
+[2022-08-30, 17:07:07] PROCESS COMPLETED.
+[2022-08-30, 17:07:39] START THE PROCESS.
+[2022-08-30, 17:07:39] Check the tool existence
+[2022-08-30, 17:07:39] Check the door Close
+[2022-08-30, 17:07:39] Check the door Close
+[2022-08-30, 17:07:39] CH2_Door_Open_o :  Off
+[2022-08-30, 17:07:39] CH2_Door_Open_o :  Off
+[2022-08-30, 17:07:39] CH2_Door_Close_o :  On
+[2022-08-30, 17:07:39] CH2_Door_Close_o :  On
+[2022-08-30, 17:07:41] Loading the process recipe file.
+[2022-08-30, 17:07:41] Loading the process recipe file.
+[2022-08-30, 17:07:41] Recipe file was successfully read.
+[2022-08-30, 17:07:41] Recipe name : Test.csv
+[2022-08-30, 17:07:41] Recipe file was successfully read.
+[2022-08-30, 17:07:41] Recipe name : Test.csv
+[2022-08-30, 17:07:41] Process Step : 1
+[2022-08-30, 17:07:41] CH2_WaterValve_o :  Off
+[2022-08-30, 17:07:41] Process Step : 1
+[2022-08-30, 17:07:41] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:07:41] CH2_WaterValve_o :  Off
+[2022-08-30, 17:07:41] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:07:41] CH2_Air_Knife_o :  On
+[2022-08-30, 17:07:41] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:07:41] CH2_Air_Knife_o :  On
+[2022-08-30, 17:07:41] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:07:41] START THE CYLINDER MOVING.
+[2022-08-30, 17:07:41] Cylinder : Forward
+[2022-08-30, 17:07:41] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:41] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:41] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:41] Cylinder : Forward
+[2022-08-30, 17:07:41] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:41] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:41] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:41] Check the process time : 10 sec.
+[2022-08-30, 17:07:41] Check the process time : 10 sec.
+[2022-08-30, 17:07:41] Check the End step.
+[2022-08-30, 17:07:42] Process Step : 2
+[2022-08-30, 17:07:42] CH2_WaterValve_o :  On
+[2022-08-30, 17:07:42] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:07:42] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:07:42] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:07:43] Check the process time : 10 sec.
+[2022-08-30, 17:07:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:43] Cylinder : Backward
+[2022-08-30, 17:07:43] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:43] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:43] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:43] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:46] Cylinder : Forward
+[2022-08-30, 17:07:46] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:46] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:46] Cylinder : Forward
+[2022-08-30, 17:07:46] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:46] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:47] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:07:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:49] Cylinder : Backward
+[2022-08-30, 17:07:49] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:49] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:49] Cylinder : Backward
+[2022-08-30, 17:07:49] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:49] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:50] Check the End step.
+[2022-08-30, 17:07:51] Process Step : 2
+[2022-08-30, 17:07:51] CH2_WaterValve_o :  On
+[2022-08-30, 17:07:51] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:07:51] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:07:51] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:07:52] Check the process time : 10 sec.
+[2022-08-30, 17:07:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:52] Process Step : 3
+[2022-08-30, 17:07:52] CH2_WaterValve_o :  Off
+[2022-08-30, 17:07:52] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:07:52] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:07:52] CH2_Air_Knife_o :  On
+[2022-08-30, 17:07:52] Cylinder : Forward
+[2022-08-30, 17:07:52] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:52] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:52] Cylinder : Forward
+[2022-08-30, 17:07:52] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:52] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:53] Check the process time : 10 sec.
+[2022-08-30, 17:07:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:55] Cylinder : Backward
+[2022-08-30, 17:07:55] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:55] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:55] Cylinder : Backward
+[2022-08-30, 17:07:55] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:07:55] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:07:56] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:07:57] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:07:58] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:58] Cylinder : Forward
+[2022-08-30, 17:07:58] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:58] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:58] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:07:58] Cylinder : Forward
+[2022-08-30, 17:07:58] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:07:58] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:07:58] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:01] Check the End step.
+[2022-08-30, 17:08:01] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:01] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:01] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:01] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:01] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:01] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:01] Process has stopped : Abort
+[2022-08-30, 17:08:01] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:01] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:01] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:01] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:01] Cylinder movement stopped : Abort
+[2022-08-30, 17:08:04] START THE PROCESS.
+[2022-08-30, 17:08:04] Check the tool existence
+[2022-08-30, 17:08:04] Check the tool existence
+[2022-08-30, 17:08:04] Check the door Close
+[2022-08-30, 17:08:04] CH2_Door_Open_o :  Off
+[2022-08-30, 17:08:04] CH2_Door_Close_o :  On
+[2022-08-30, 17:08:04] Check the door Close
+[2022-08-30, 17:08:04] CH2_Door_Open_o :  Off
+[2022-08-30, 17:08:04] CH2_Door_Close_o :  On
+[2022-08-30, 17:08:04] Loading the process recipe file.
+[2022-08-30, 17:08:04] Loading the process recipe file.
+[2022-08-30, 17:08:04] Recipe file was successfully read.
+[2022-08-30, 17:08:04] Recipe name : Test.csv
+[2022-08-30, 17:08:04] Recipe file was successfully read.
+[2022-08-30, 17:08:04] Recipe name : Test.csv
+[2022-08-30, 17:08:04] Process Step : 1
+[2022-08-30, 17:08:04] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:04] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:04] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:04] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:04] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:05] Process Step : 1
+[2022-08-30, 17:08:05] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:05] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:05] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:05] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:05] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:05] Cylinder : Backward
+[2022-08-30, 17:08:05] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:05] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:05] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:05] Cylinder : Forward
+[2022-08-30, 17:08:05] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:05] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:05] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:05] Check the process time : 10 sec.
+[2022-08-30, 17:08:05] Check the process time : 10 sec.
+[2022-08-30, 17:08:07] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:07] Cylinder : Backward
+[2022-08-30, 17:08:07] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:07] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:07] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:10] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:10] Cylinder : Forward
+[2022-08-30, 17:08:10] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:10] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:10] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:10] Cylinder : Forward
+[2022-08-30, 17:08:10] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:10] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:10] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:13] Cylinder : Backward
+[2022-08-30, 17:08:13] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:13] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:13] Cylinder : Backward
+[2022-08-30, 17:08:13] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:13] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:13] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:14] Check the End step.
+[2022-08-30, 17:08:14] Check the End step.
+[2022-08-30, 17:08:15] Process Step : 2
+[2022-08-30, 17:08:15] CH2_WaterValve_o :  On
+[2022-08-30, 17:08:15] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:08:15] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:15] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:15] Process Step : 2
+[2022-08-30, 17:08:15] CH2_WaterValve_o :  On
+[2022-08-30, 17:08:15] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:08:15] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:15] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:15] Check the process time : 10 sec.
+[2022-08-30, 17:08:15] Check the process time : 10 sec.
+[2022-08-30, 17:08:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:16] Cylinder : Forward
+[2022-08-30, 17:08:16] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:16] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:16] Cylinder : Forward
+[2022-08-30, 17:08:16] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:16] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:16] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:19] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:19] CH3_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:19] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:08:19] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:19] Cylinder : Backward
+[2022-08-30, 17:08:19] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:19] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:19] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:19] Cylinder : Backward
+[2022-08-30, 17:08:19] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:19] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:19] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:22] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:22] Cylinder : Forward
+[2022-08-30, 17:08:22] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:22] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:22] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:22] Cylinder : Forward
+[2022-08-30, 17:08:22] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:22] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:22] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:24] Check the End step.
+[2022-08-30, 17:08:24] Check the End step.
+[2022-08-30, 17:08:25] Process Step : 3
+[2022-08-30, 17:08:25] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:25] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:25] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:25] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:25] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:25] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:25] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:25] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:25] Check the process time : 10 sec.
+[2022-08-30, 17:08:25] Check the process time : 10 sec.
+[2022-08-30, 17:08:25] Cylinder : Backward
+[2022-08-30, 17:08:25] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:25] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:25] Cylinder : Backward
+[2022-08-30, 17:08:25] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:25] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:25] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:28] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:28] Cylinder : Forward
+[2022-08-30, 17:08:28] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:28] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:28] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:28] Cylinder : Forward
+[2022-08-30, 17:08:28] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:28] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:28] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:29] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:08:29] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:31] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:31] Cylinder : Backward
+[2022-08-30, 17:08:31] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:31] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:31] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:31] Cylinder : Backward
+[2022-08-30, 17:08:31] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:31] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:31] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:34] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:34] Check the End step.
+[2022-08-30, 17:08:34] Check the End step.
+[2022-08-30, 17:08:34] Cylinder : Forward
+[2022-08-30, 17:08:34] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:34] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:34] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:34] Cylinder : Forward
+[2022-08-30, 17:08:34] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:34] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:34] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:35] Process Step : 4
+[2022-08-30, 17:08:35] CH2_WaterValve_o :  On
+[2022-08-30, 17:08:35] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:08:35] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:35] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:35] Process Step : 4
+[2022-08-30, 17:08:35] CH2_WaterValve_o :  On
+[2022-08-30, 17:08:35] CH2_Booster_AirValve_o :  On
+[2022-08-30, 17:08:35] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:35] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:35] Check the process time : 10 sec.
+[2022-08-30, 17:08:35] Check the process time : 10 sec.
+[2022-08-30, 17:08:37] CH1_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:37] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:37] Cylinder : Backward
+[2022-08-30, 17:08:37] Cylinder : Backward
+[2022-08-30, 17:08:37] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:37] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:37] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:37] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:39] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:08:39] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:40] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:40] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:40] Cylinder : Forward
+[2022-08-30, 17:08:40] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:40] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:40] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:40] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:40] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:40] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:43] Cylinder : Backward
+[2022-08-30, 17:08:43] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:43] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:43] Cylinder : Backward
+[2022-08-30, 17:08:43] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:43] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:43] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:44] Check the End step.
+[2022-08-30, 17:08:44] Check the End step.
+[2022-08-30, 17:08:45] Process Step : 5
+[2022-08-30, 17:08:45] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:45] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:45] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:45] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:45] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:45] Process Step : 5
+[2022-08-30, 17:08:45] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:45] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:45] CH2_Side_AirValve_o :  On
+[2022-08-30, 17:08:45] CH2_Air_Knife_o :  On
+[2022-08-30, 17:08:45] CH2_Pin_UpDn_o :  On
+[2022-08-30, 17:08:46] Check the process time : 10 sec.
+[2022-08-30, 17:08:46] Check the process time : 10 sec.
+[2022-08-30, 17:08:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:46] Cylinder : Forward
+[2022-08-30, 17:08:46] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:46] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:46] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:46] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:46] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:49] Cylinder : Backward
+[2022-08-30, 17:08:49] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:49] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:49] Cylinder : Backward
+[2022-08-30, 17:08:49] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:49] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:49] CH2_Cylinder_Bwd_o :  On
+[2022-08-30, 17:08:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:52] Cylinder : Forward
+[2022-08-30, 17:08:52] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:52] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:52] Cylinder : Forward
+[2022-08-30, 17:08:52] CH2_Cylinder_Pwr_o :  On
+[2022-08-30, 17:08:52] CH2_Cylinder_Fwd_o :  On
+[2022-08-30, 17:08:52] CH2_Cylinder_Bwd_o :  Off
+[2022-08-30, 17:08:55] Check the End step.
+[2022-08-30, 17:08:55] Check the End step.
+[2022-08-30, 17:08:55] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:55] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:08:55] CH2_WaterValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:08:55] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:08:55] CH2_Pin_UpDn_o :  Off
+[2022-08-30, 17:08:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:55] CH2_Cylinder_Fwd_o :  Off
+[2022-08-30, 17:08:55] START THE CYLINDER HOME.
+[2022-08-30, 17:08:55] COMPLETE THE CYLINDER HOME.
+[2022-08-30, 17:08:56] Check the door Open
+[2022-08-30, 17:08:56] CH2_Door_Open_o :  On
+[2022-08-30, 17:08:56] CH2_Door_Close_o :  Off
+[2022-08-30, 17:08:56] Check the door Open
+[2022-08-30, 17:08:56] CH2_Door_Open_o :  On
+[2022-08-30, 17:08:56] CH2_Door_Close_o :  Off
+[2022-08-30, 17:08:59] PROCESS COMPLETED.
+[2022-08-30, 17:21:16] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:21:16] CH2_WaterValve_o :  Off
+[2022-08-30, 17:21:16] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:21:16] CH2_Air_Knife_o :  Off
+[2022-08-30, 17:31:13] CH2_Side_AirValve_o :  Off
+[2022-08-30, 17:31:13] CH2_WaterValve_o :  Off
+[2022-08-30, 17:31:13] CH2_Booster_AirValve_o :  Off
+[2022-08-30, 17:31:13] CH2_Air_Knife_o :  Off

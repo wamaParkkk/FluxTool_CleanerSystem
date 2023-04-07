@@ -1,0 +1,71 @@
+[2022-09-11, 00:25:26] FluorescentLamp_o :  On
+[2022-09-11, 00:26:03] FluorescentLamp_o :  Off
+[2022-09-11, 00:26:12] START THE INITIALIZE.
+[2022-09-11, 00:26:12] CH3_Booster_AirValve_o :  Off
+[2022-09-11, 00:26:12] CH3_Side_AirValve_o :  Off
+[2022-09-11, 00:26:12] CH3_Air_Knife_o :  Off
+[2022-09-11, 00:26:12] CH3_WaterValve_o :  Off
+[2022-09-11, 00:26:12] CH3_Booster_AirValve_o :  Off
+[2022-09-11, 00:26:12] CH3_Side_AirValve_o :  Off
+[2022-09-11, 00:26:12] CH3_Air_Knife_o :  Off
+[2022-09-11, 00:26:12] Check the door Close
+[2022-09-11, 00:26:12] CH3_Door_Open_o :  Off
+[2022-09-11, 00:26:12] CH3_Door_Close_o :  On
+[2022-09-11, 00:26:12] Check the door Close
+[2022-09-11, 00:26:12] CH3_Door_Open_o :  Off
+[2022-09-11, 00:26:12] CH3_Door_Close_o :  On
+[2022-09-11, 00:26:16] Pin : Down
+[2022-09-11, 00:26:16] CH3_Pin_UpDn_o :  Off
+[2022-09-11, 00:26:16] Pin : Down
+[2022-09-11, 00:26:16] CH3_Pin_UpDn_o :  Off
+[2022-09-11, 00:26:16] CH3_Cylinder_Fwd_o :  Off
+[2022-09-11, 00:26:16] CH3_Cylinder_Bwd_o :  Off
+[2022-09-11, 00:26:16] Cylinder movement stopped : Abort
+[2022-09-11, 00:26:16] Cylinder movement stopped : Abort
+[2022-09-11, 00:26:16] CH3_Cylinder_Fwd_o :  Off
+[2022-09-11, 00:26:16] CH3_Cylinder_Fwd_o :  Off
+[2022-09-11, 00:26:16] CH3_Cylinder_Bwd_o :  Off
+[2022-09-11, 00:26:16] Cylinder movement stopped : Abort
+[2022-09-11, 00:26:16] Cylinder movement stopped : Abort
+[2022-09-11, 00:26:17] START THE CYLINDER HOME.
+[2022-09-11, 00:26:17] START THE CYLINDER HOME.
+[2022-09-11, 00:26:17] COMPLETE THE CYLINDER HOME.
+[2022-09-11, 00:26:17] Check the door Open
+[2022-09-11, 00:26:17] CH3_Door_Open_o :  On
+[2022-09-11, 00:26:17] CH3_Door_Close_o :  Off
+[2022-09-11, 00:26:18] Check the door Open
+[2022-09-11, 00:26:18] CH3_Door_Open_o :  On
+[2022-09-11, 00:26:18] CH3_Door_Close_o :  Off
+[2022-09-11, 00:26:23] INIT COMPLETED.
+[2022-09-11, 01:54:19] FluorescentLamp_o :  On
+[2022-09-11, 01:54:39] FluorescentLamp_o :  Off
+[2022-09-11, 02:51:27] FluorescentLamp_o :  On
+[2022-09-11, 02:52:24] FluorescentLamp_o :  Off
+[2022-09-11, 02:53:44] FluorescentLamp_o :  On
+[2022-09-11, 02:54:27] FluorescentLamp_o :  Off
+[2022-09-11, 03:30:56] FluorescentLamp_o :  On
+[2022-09-11, 03:31:32] FluorescentLamp_o :  Off
+[2022-09-11, 04:36:43] FluorescentLamp_o :  On
+[2022-09-11, 04:36:51] FluorescentLamp_o :  Off
+[2022-09-11, 05:02:55] FluorescentLamp_o :  On
+[2022-09-11, 05:05:35] FluorescentLamp_o :  Off
+[2022-09-11, 05:05:51] FluorescentLamp_o :  On
+[2022-09-11, 05:06:01] FluorescentLamp_o :  Off
+[2022-09-11, 05:26:42] FluorescentLamp_o :  On
+[2022-09-11, 05:26:50] FluorescentLamp_o :  Off
+[2022-09-11, 08:48:05] FluorescentLamp_o :  On
+[2022-09-11, 08:48:16] FluorescentLamp_o :  Off
+[2022-09-11, 09:12:31] FluorescentLamp_o :  On
+[2022-09-11, 09:13:28] FluorescentLamp_o :  Off
+[2022-09-11, 09:40:39] FluorescentLamp_o :  On
+[2022-09-11, 09:41:10] FluorescentLamp_o :  Off
+[2022-09-11, 12:11:03] FluorescentLamp_o :  On
+[2022-09-11, 12:11:15] FluorescentLamp_o :  Off
+[2022-09-11, 12:31:38] FluorescentLamp_o :  On
+[2022-09-11, 12:31:42] FluorescentLamp_o :  Off
+[2022-09-11, 12:32:29] FluorescentLamp_o :  On
+[2022-09-11, 12:36:04] FluorescentLamp_o :  Off
+[2022-09-11, 12:36:21] FluorescentLamp_o :  On
+[2022-09-11, 12:36:34] FluorescentLamp_o :  Off
+[2022-09-11, 13:00:13] FluorescentLamp_o :  On
+[2022-09-11, 13:00:26] FluorescentLamp_o :  Off

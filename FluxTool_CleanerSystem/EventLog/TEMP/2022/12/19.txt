@@ -1,0 +1,32 @@
+[2022-12-19, 08:25:39] Successfully read communication port information
+[2022-12-19, 08:25:39] Failed to opened port
+[2022-12-19, 08:25:39] Heater controller initialization failed
+[2022-12-19, 08:25:39] Heater communication driver has been terminated
+[2022-12-19, 08:38:08] Successfully read communication port information
+[2022-12-19, 08:38:08] Failed to opened port
+[2022-12-19, 08:38:08] Heater controller initialization failed
+[2022-12-19, 08:38:08] Heater communication driver has been terminated
+[2022-12-19, 08:44:40] Successfully read communication port information
+[2022-12-19, 08:44:40] Failed to opened port
+[2022-12-19, 08:44:40] Heater controller initialization failed
+[2022-12-19, 08:44:40] Heater communication driver has been terminated
+[2022-12-19, 11:42:38] Successfully read communication port information
+[2022-12-19, 11:42:38] Failed to opened port
+[2022-12-19, 11:42:38] Heater controller initialization failed
+[2022-12-19, 11:42:38] Heater communication driver has been terminated
+[2022-12-19, 11:43:50] Successfully read communication port information
+[2022-12-19, 11:43:50] Failed to opened port
+[2022-12-19, 11:43:50] Heater controller initialization failed
+[2022-12-19, 11:43:50] Heater communication driver has been terminated
+[2022-12-19, 11:48:56] Successfully read communication port information
+[2022-12-19, 11:48:56] Failed to opened port
+[2022-12-19, 11:48:56] Heater controller initialization failed
+[2022-12-19, 11:48:56] Heater communication driver has been terminated
+[2022-12-19, 11:53:29] Successfully read communication port information
+[2022-12-19, 11:53:29] Failed to opened port
+[2022-12-19, 11:53:29] Heater controller initialization failed
+[2022-12-19, 11:53:29] Heater communication driver has been terminated
+[2022-12-19, 11:53:58] Successfully read communication port information
+[2022-12-19, 11:53:58] Failed to opened port
+[2022-12-19, 11:53:58] Heater controller initialization failed
+[2022-12-19, 11:53:58] Heater communication driver has been terminated

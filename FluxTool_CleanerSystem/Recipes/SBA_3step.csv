@@ -1,0 +1,8 @@
+﻿Item/Step,1,2,3
+Step Name,Water-clean1,Water-clean3,Air-blow
+Water,On,On,Off
+Booster air,On,On,Off
+Side air,Off,Off,On
+Air knife,Off,Off,On
+Pin move,Up,Up/Down,Down
+공정 시간(Sec),300,300,120

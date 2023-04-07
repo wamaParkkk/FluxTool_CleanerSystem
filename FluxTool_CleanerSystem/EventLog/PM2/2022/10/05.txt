@@ -1,0 +1,34 @@
+[2022-10-05, 13:16:19] [INTERLOCK#2] EMO switch is on / Door is open
+[2022-10-05, 13:16:23] CH2_Door_Close_o :  On
+[2022-10-05, 13:16:26] CH2_Door_Close_o :  Off
+[2022-10-05, 13:16:27] CH2_Door_Open_o :  Off
+[2022-10-05, 13:16:28] CH2_Door_Close_o :  On
+[2022-10-05, 13:16:39] CH2_Cylinder_Fwd_o :  On
+[2022-10-05, 13:16:53] CH2_Booster_AirValve_o :  On
+[2022-10-05, 13:16:54] CH2_Cylinder_Fwd_o :  Off
+[2022-10-05, 13:16:57] [INTERLOCK#2] Air or Water valve is open
+[2022-10-05, 13:16:59] CH2_Door_Close_o :  Off
+[2022-10-05, 13:16:59] [INTERLOCK#2] Air or Water valve is open
+[2022-10-05, 13:17:03] [INTERLOCK#2] Air or Water valve is open
+[2022-10-05, 13:17:05] CH2_Booster_AirValve_o :  Off
+[2022-10-05, 13:17:06] CH2_Door_Open_o :  On
+[2022-10-05, 13:38:22] START THE INITIALIZE.
+[2022-10-05, 13:38:22] CH2_WaterValve_o :  Off
+[2022-10-05, 13:38:22] CH2_Booster_AirValve_o :  Off
+[2022-10-05, 13:38:22] CH2_Side_AirValve_o :  Off
+[2022-10-05, 13:38:22] CH2_Air_Knife_o :  Off
+[2022-10-05, 13:38:22] Check the door Close
+[2022-10-05, 13:38:22] CH2_Door_Open_o :  Off
+[2022-10-05, 13:38:22] CH2_Door_Close_o :  On
+[2022-10-05, 13:38:26] Pin : Down
+[2022-10-05, 13:38:26] CH2_Pin_UpDn_o :  Off
+[2022-10-05, 13:38:26] START THE CYLINDER HOME.
+[2022-10-05, 13:38:26] CH2_Cylinder_Pwr_o :  On
+[2022-10-05, 13:38:26] CH2_Cylinder_Fwd_o :  Off
+[2022-10-05, 13:38:26] CH2_Cylinder_Bwd_o :  On
+[2022-10-05, 13:38:42] CH2_Cylinder_Bwd_o :  Off
+[2022-10-05, 13:38:42] COMPLETE THE CYLINDER HOME.
+[2022-10-05, 13:38:42] Check the door Open
+[2022-10-05, 13:38:42] CH2_Door_Open_o :  On
+[2022-10-05, 13:38:42] CH2_Door_Close_o :  Off
+[2022-10-05, 13:38:47] INIT COMPLETED.

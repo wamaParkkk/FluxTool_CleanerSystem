@@ -1,0 +1,120 @@
+[2022-10-28, 17:32:12] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:32:12] CH1_WaterValve_o :  Off
+[2022-10-28, 17:32:12] CH1_Booster_AirValve_o :  Off
+[2022-10-28, 17:32:12] CH1_Air_Knife_o :  Off
+[2022-10-28, 17:32:12] Hot_Water_Pump_o :  Off
+[2022-10-28, 17:32:12] Hot_WaterHeater_o :  Off
+[2022-10-28, 17:32:12] Main_Water_Supply :  Off
+[2022-10-28, 17:32:12] Buzzer_o :  On
+[2022-10-28, 17:32:14] Buzzer_o :  Off
+[2022-10-28, 17:32:38] [LOG-IN] [000000_Amkor_Master]
+[2022-10-28, 17:32:39] Simulation mode is on.
+[2022-10-28, 17:32:51] START THE PROCESS.
+[2022-10-28, 17:32:51] Check the tool existence
+[2022-10-28, 17:32:51] Check the tool existence
+[2022-10-28, 17:32:51] Check the door Close
+[2022-10-28, 17:32:51] CH1_Door_Open_o :  Off
+[2022-10-28, 17:32:51] CH1_Door_Close_o :  On
+[2022-10-28, 17:32:51] Check the door Close
+[2022-10-28, 17:32:51] CH1_Door_Open_o :  Off
+[2022-10-28, 17:32:51] CH1_Door_Close_o :  On
+[2022-10-28, 17:32:52] Loading the process recipe file.
+[2022-10-28, 17:32:52] Loading the process recipe file.
+[2022-10-28, 17:32:52] Recipe file was successfully read.
+[2022-10-28, 17:32:52] Recipe name : Test.csv
+[2022-10-28, 17:32:52] Recipe file was successfully read.
+[2022-10-28, 17:32:52] Recipe name : Test.csv
+[2022-10-28, 17:32:52] Process Step : 1
+[2022-10-28, 17:32:52] CH1_WaterValve_o :  On
+[2022-10-28, 17:32:52] Process Step : 1
+[2022-10-28, 17:32:52] CH1_WaterValve_o :  On
+[2022-10-28, 17:32:52] CH1_Booster_AirValve_o :  On
+[2022-10-28, 17:32:52] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:32:52] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:32:52] CH1_Air_Knife_o :  Off
+[2022-10-28, 17:32:52] CH1_Pin_UpDn_o :  On
+[2022-10-28, 17:32:52] CH1_Pin_UpDn_o :  On
+[2022-10-28, 17:32:52] START THE CYLINDER MOVING.
+[2022-10-28, 17:32:52] Cylinder : Forward
+[2022-10-28, 17:32:52] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:32:52] CH1_Cylinder_Fwd_o :  On
+[2022-10-28, 17:32:52] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:32:52] Check the process time : 10 sec.
+[2022-10-28, 17:32:52] Check the process time : 10 sec.
+[2022-10-28, 17:32:52] Hot_Water_Pump_o :  On
+[2022-10-28, 17:32:54] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:32:54] Cylinder : Backward
+[2022-10-28, 17:32:54] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:32:54] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:32:54] CH1_Cylinder_Bwd_o :  On
+[2022-10-28, 17:32:57] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:32:57] Cylinder : Forward
+[2022-10-28, 17:32:57] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:32:57] CH1_Cylinder_Fwd_o :  On
+[2022-10-28, 17:32:57] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:32:59] CH1_WaterValve_o :  Off
+[2022-10-28, 17:32:59] CH1_Booster_AirValve_o :  Off
+[2022-10-28, 17:32:59] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:32:59] CH1_Air_Knife_o :  Off
+[2022-10-28, 17:32:59] Process has stopped : Abort
+[2022-10-28, 17:32:59] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:32:59] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:32:59] Cylinder movement stopped : Abort
+[2022-10-28, 17:32:59] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:32:59] Cylinder movement stopped : Abort
+[2022-10-28, 17:32:59] Hot_Water_Pump_o :  Off
+[2022-10-28, 17:33:09] Hot_WaterHeater_o :  On
+[2022-10-28, 17:33:13] START THE PROCESS.
+[2022-10-28, 17:33:13] Check the tool existence
+[2022-10-28, 17:33:13] Check the tool existence
+[2022-10-28, 17:33:13] Check the door Close
+[2022-10-28, 17:33:13] CH1_Door_Open_o :  Off
+[2022-10-28, 17:33:13] CH1_Door_Close_o :  On
+[2022-10-28, 17:33:13] Check the door Close
+[2022-10-28, 17:33:13] CH1_Door_Open_o :  Off
+[2022-10-28, 17:33:13] CH1_Door_Close_o :  On
+[2022-10-28, 17:33:13] Loading the process recipe file.
+[2022-10-28, 17:33:13] Loading the process recipe file.
+[2022-10-28, 17:33:13] Recipe file was successfully read.
+[2022-10-28, 17:33:13] Recipe name : Test.csv
+[2022-10-28, 17:33:13] Recipe file was successfully read.
+[2022-10-28, 17:33:13] Recipe name : Test.csv
+[2022-10-28, 17:33:13] Process Step : 1
+[2022-10-28, 17:33:13] CH1_WaterValve_o :  On
+[2022-10-28, 17:33:13] CH1_Booster_AirValve_o :  On
+[2022-10-28, 17:33:13] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:33:13] CH1_Air_Knife_o :  Off
+[2022-10-28, 17:33:13] CH1_Pin_UpDn_o :  On
+[2022-10-28, 17:33:13] Hot_Water_Pump_o :  On
+[2022-10-28, 17:33:13] Process Step : 1
+[2022-10-28, 17:33:13] CH1_WaterValve_o :  On
+[2022-10-28, 17:33:13] CH1_Booster_AirValve_o :  On
+[2022-10-28, 17:33:13] CH1_Side_AirValve_o :  Off
+[2022-10-28, 17:33:13] CH1_Air_Knife_o :  Off
+[2022-10-28, 17:33:13] CH1_Pin_UpDn_o :  On
+[2022-10-28, 17:33:13] START THE CYLINDER MOVING.
+[2022-10-28, 17:33:13] Cylinder : Forward
+[2022-10-28, 17:33:13] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:33:13] CH1_Cylinder_Fwd_o :  On
+[2022-10-28, 17:33:13] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:33:13] Check the process time : 10 sec.
+[2022-10-28, 17:33:15] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:33:15] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:33:15] Cylinder : Backward
+[2022-10-28, 17:33:15] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:33:15] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:33:15] CH1_Cylinder_Bwd_o :  On
+[2022-10-28, 17:33:15] Cylinder : Backward
+[2022-10-28, 17:33:15] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:33:15] CH1_Cylinder_Fwd_o :  Off
+[2022-10-28, 17:33:15] CH1_Cylinder_Bwd_o :  On
+[2022-10-28, 17:33:18] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:33:18] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:33:18] Cylinder : Forward
+[2022-10-28, 17:33:18] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:33:18] CH1_Cylinder_Fwd_o :  On
+[2022-10-28, 17:33:18] CH1_Cylinder_Bwd_o :  Off
+[2022-10-28, 17:33:18] Cylinder : Forward
+[2022-10-28, 17:33:18] CH1_Cylinder_Pwr_o :  On
+[2022-10-28, 17:33:18] CH1_Cylinder_Fwd_o :  On
+[2022-10-28, 17:33:18] CH1_Cylinder_Bwd_o :  Off

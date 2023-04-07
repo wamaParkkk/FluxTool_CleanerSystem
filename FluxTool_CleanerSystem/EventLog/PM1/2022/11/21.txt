@@ -1,0 +1,66 @@
+[2022-11-21, 08:20:49] CH1_Side_AirValve_o :  Off
+[2022-11-21, 08:20:49] CH1_WaterValve_o :  Off
+[2022-11-21, 08:20:49] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 08:20:49] CH1_Air_Knife_o :  Off
+[2022-11-21, 08:20:49] Hot_Water_Pump_o :  Off
+[2022-11-21, 08:20:49] Hot_WaterHeater_o :  Off
+[2022-11-21, 08:20:49] Main_Water_Supply :  Off
+[2022-11-21, 08:20:49] Buzzer_o :  On
+[2022-11-21, 08:28:25] CH1_Side_AirValve_o :  Off
+[2022-11-21, 08:28:25] CH1_WaterValve_o :  Off
+[2022-11-21, 08:28:25] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 08:28:25] CH1_Air_Knife_o :  Off
+[2022-11-21, 08:28:25] Hot_Water_Pump_o :  Off
+[2022-11-21, 08:28:25] Hot_WaterHeater_o :  Off
+[2022-11-21, 08:28:25] Main_Water_Supply :  Off
+[2022-11-21, 08:28:25] Buzzer_o :  On
+[2022-11-21, 08:28:37] Buzzer_o :  Off
+[2022-11-21, 08:30:18] CH1_Side_AirValve_o :  Off
+[2022-11-21, 08:30:18] CH1_WaterValve_o :  Off
+[2022-11-21, 08:30:18] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 08:30:18] CH1_Air_Knife_o :  Off
+[2022-11-21, 08:30:18] Hot_Water_Pump_o :  Off
+[2022-11-21, 08:30:18] Hot_WaterHeater_o :  Off
+[2022-11-21, 08:30:18] Main_Water_Supply :  Off
+[2022-11-21, 08:30:18] Buzzer_o :  On
+[2022-11-21, 08:30:35] Buzzer_o :  Off
+[2022-11-21, 08:30:40] [LOG-IN] [000000_Amkor_Master]
+[2022-11-21, 10:57:37] CH1_Side_AirValve_o :  Off
+[2022-11-21, 10:57:37] CH1_WaterValve_o :  Off
+[2022-11-21, 10:57:37] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 10:57:37] CH1_Air_Knife_o :  Off
+[2022-11-21, 10:57:37] Hot_Water_Pump_o :  Off
+[2022-11-21, 10:57:37] Hot_WaterHeater_o :  Off
+[2022-11-21, 10:57:37] Main_Water_Supply :  Off
+[2022-11-21, 10:57:37] Buzzer_o :  On
+[2022-11-21, 10:57:49] Buzzer_o :  Off
+[2022-11-21, 10:58:10] Main_Water_Supply :  On
+[2022-11-21, 10:58:26] [LOG-IN] [000000_Amkor_Master]
+[2022-11-21, 13:47:18] CH1_Side_AirValve_o :  Off
+[2022-11-21, 13:47:18] CH1_WaterValve_o :  Off
+[2022-11-21, 13:47:18] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 13:47:18] CH1_Air_Knife_o :  Off
+[2022-11-21, 13:47:18] Hot_Water_Pump_o :  Off
+[2022-11-21, 13:47:18] Hot_WaterHeater_o :  Off
+[2022-11-21, 13:47:18] Main_Water_Supply :  Off
+[2022-11-21, 13:47:18] Buzzer_o :  On
+[2022-11-21, 13:47:33] Buzzer_o :  Off
+[2022-11-21, 13:47:39] [LOG-IN] [000000_Amkor_Master]
+[2022-11-21, 13:47:52] Main_Water_Supply :  On
+[2022-11-21, 13:48:43] Simulation mode is on.
+[2022-11-21, 13:48:44] Main_Water_Supply :  Off
+[2022-11-21, 13:48:44] Hot_WaterHeater_o :  On
+[2022-11-21, 13:48:56] CH1_Door_Open_o :  Off
+[2022-11-21, 13:48:56] CH1_Door_Close_o :  On
+[2022-11-21, 13:49:17] Simulation mode is off.
+[2022-11-21, 19:16:22] CH1_Side_AirValve_o :  Off
+[2022-11-21, 19:16:22] CH1_WaterValve_o :  Off
+[2022-11-21, 19:16:22] CH1_Booster_AirValve_o :  Off
+[2022-11-21, 19:16:22] CH1_Air_Knife_o :  Off
+[2022-11-21, 19:16:22] Hot_Water_Pump_o :  Off
+[2022-11-21, 19:16:22] Hot_WaterHeater_o :  Off
+[2022-11-21, 19:16:22] Main_Water_Supply :  Off
+[2022-11-21, 19:16:22] Buzzer_o :  On
+[2022-11-21, 19:16:34] Buzzer_o :  Off
+[2022-11-21, 19:16:43] [LOG-IN] [000000_Amkor_Master]
+[2022-11-21, 19:16:55] Main_Water_Supply :  On

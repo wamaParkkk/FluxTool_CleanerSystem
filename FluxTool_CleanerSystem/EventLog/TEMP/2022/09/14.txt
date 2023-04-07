@@ -1,0 +1,28 @@
+[2022-09-14, 05:22:56] Successfully read communication port information
+[2022-09-14, 05:22:56] Successfully opened port
+[2022-09-14, 05:24:07] Successfully read communication port information
+[2022-09-14, 05:24:07] Successfully opened port
+[2022-09-14, 05:27:19] Successfully read communication port information
+[2022-09-14, 05:27:19] Successfully opened port
+[2022-09-14, 05:33:09] Successfully read communication port information
+[2022-09-14, 05:33:09] Successfully opened port
+[2022-09-14, 10:43:24] Successfully read communication port information
+[2022-09-14, 10:43:24] Successfully opened port
+[2022-09-14, 11:00:28] Successfully read communication port information
+[2022-09-14, 11:00:28] Successfully opened port
+[2022-09-14, 11:08:21] Successfully read communication port information
+[2022-09-14, 11:08:21] Successfully opened port
+[2022-09-14, 11:13:28] Successfully read communication port information
+[2022-09-14, 11:13:28] Successfully opened port
+[2022-09-14, 14:01:17] Successfully read communication port information
+[2022-09-14, 14:01:17] Successfully opened port
+[2022-09-14, 14:05:15] Successfully read communication port information
+[2022-09-14, 14:05:15] Successfully opened port
+[2022-09-14, 14:15:13] Successfully read communication port information
+[2022-09-14, 14:15:13] Successfully opened port
+[2022-09-14, 14:28:00] Successfully read communication port information
+[2022-09-14, 14:28:00] Successfully opened port
+[2022-09-14, 14:35:23] Successfully read communication port information
+[2022-09-14, 14:35:23] Successfully opened port
+[2022-09-14, 14:49:10] Successfully read communication port information
+[2022-09-14, 14:49:10] Successfully opened port

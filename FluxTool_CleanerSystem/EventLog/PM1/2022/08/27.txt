@@ -1,0 +1,52 @@
+[2022-08-27, 08:35:02] CH1_Left_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH1_Right_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH1_WaterValve_o :  Off
+[2022-08-27, 08:35:02] CH1_Booster_AirValve_o :  Off
+[2022-08-27, 08:35:02] CH1_Air_Knife_o :  Off
+[2022-08-27, 08:35:02] Hot_Water_Pump_o :  Off
+[2022-08-27, 08:35:02] Hot_WaterHeater_o :  Off
+[2022-08-27, 08:35:02] Main_Water_Supply :  Off
+[2022-08-27, 08:35:02] Buzzer_o :  On
+[2022-08-27, 08:35:09] [LOG-IN] [000000_Amkor_Master]
+[2022-08-27, 12:54:48] CH1_Left_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH1_Right_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH1_WaterValve_o :  Off
+[2022-08-27, 12:54:48] CH1_Booster_AirValve_o :  Off
+[2022-08-27, 12:54:48] CH1_Air_Knife_o :  Off
+[2022-08-27, 12:54:48] Hot_Water_Pump_o :  Off
+[2022-08-27, 12:54:48] Hot_WaterHeater_o :  Off
+[2022-08-27, 12:54:48] Main_Water_Supply :  Off
+[2022-08-27, 12:54:48] Buzzer_o :  On
+[2022-08-27, 12:54:50] Simulation mode is on.
+[2022-08-27, 12:54:54] [LOG-IN] [000000_Amkor_Master]
+[2022-08-27, 12:54:58] CH1_Door_Open_o :  Off
+[2022-08-27, 12:54:58] CH1_Door_Close_o :  On
+[2022-08-27, 12:55:05] CH1_Cylinder_Pwr_o :  On
+[2022-08-27, 12:55:05] CH1_Cylinder_Fwd_o :  On
+[2022-08-27, 12:55:05] CH1_Cylinder_Bwd_o :  Off
+[2022-08-27, 12:55:38] CH1_Left_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH1_Right_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH1_WaterValve_o :  Off
+[2022-08-27, 12:55:38] CH1_Booster_AirValve_o :  Off
+[2022-08-27, 12:55:38] CH1_Air_Knife_o :  Off
+[2022-08-27, 12:55:38] Hot_Water_Pump_o :  Off
+[2022-08-27, 12:55:38] Hot_WaterHeater_o :  Off
+[2022-08-27, 12:55:38] Main_Water_Supply :  Off
+[2022-08-27, 12:55:38] Buzzer_o :  On
+[2022-08-27, 12:55:40] Simulation mode is on.
+[2022-08-27, 12:55:44] [LOG-IN] [000000_Amkor_Master]
+[2022-08-27, 12:55:48] CH1_Cylinder_Pwr_o :  On
+[2022-08-27, 12:55:48] CH1_Cylinder_Fwd_o :  Off
+[2022-08-27, 12:55:48] CH1_Cylinder_Bwd_o :  On
+[2022-08-27, 12:55:54] CH1_Cylinder_Pwr_o :  On
+[2022-08-27, 12:55:54] [INTERLOCK#1] EMO switch is on / Door is open
+[2022-08-27, 12:55:55] CH1_Cylinder_Bwd_o :  Off
+[2022-08-27, 12:55:58] CH1_Cylinder_Pwr_o :  On
+[2022-08-27, 12:55:58] CH1_Cylinder_Fwd_o :  On
+[2022-08-27, 12:55:58] CH1_Cylinder_Bwd_o :  Off
+[2022-08-27, 12:56:02] CH1_Door_Open_o :  Off
+[2022-08-27, 12:56:02] CH1_Door_Close_o :  On
+[2022-08-27, 12:56:04] CH1_Door_Open_o :  On
+[2022-08-27, 12:56:04] CH1_Door_Close_o :  Off
+[2022-08-27, 12:56:08] CH1_Door_Open_o :  Off
+[2022-08-27, 12:56:08] CH1_Door_Close_o :  On

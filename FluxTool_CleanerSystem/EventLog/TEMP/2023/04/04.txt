@@ -1,0 +1,8 @@
+[2023-04-04, 13:13:31] Successfully read communication port information
+[2023-04-04, 13:13:31] Failed to opened port
+[2023-04-04, 13:13:31] Heater controller initialization failed
+[2023-04-04, 13:13:31] Heater communication driver has been terminated
+[2023-04-04, 13:19:26] Successfully read communication port information
+[2023-04-04, 13:19:26] Failed to opened port
+[2023-04-04, 13:19:26] Heater controller initialization failed
+[2023-04-04, 13:19:26] Heater communication driver has been terminated

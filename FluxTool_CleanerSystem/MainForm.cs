@@ -94,7 +94,7 @@ namespace FluxTool_CleanerSystem
             
             
             // IO보드 초기화
-            if (IOClass.OpenDevice())
+            if (DIOClass.OpenDevice())
             {
                 m_ioForm.DI_Parsing_timer.Start();
             }
@@ -212,7 +212,7 @@ namespace FluxTool_CleanerSystem
             
             waterTankFill.Dispose();
 
-            IOClass.CloseDevice();
+            DIOClass.CloseDevice();
         }
 
         public void SubFormShow(byte PageNum)
@@ -774,10 +774,8 @@ namespace FluxTool_CleanerSystem
             if (sTime == "00:00:00")
             {
                 if (!bLogCnt)
-                {
-                    //F_CAPA_CALC();
-
-                    // 가동 시간 서버 업데이트
+                {                    
+                    // 가동 시간 및 가동률 서버 업데이트
                     RUNTIME_UPDATE();
 
                     // 가동 시간 초기화
@@ -802,24 +800,7 @@ namespace FluxTool_CleanerSystem
                     bLogCnt = false;
                 }
             }
-        }
-
-        private void F_CAPA_CALC()
-        {
-            /*
-            int iDailyAllCnt = Define.iPM1DailyCnt + Define.iPM2DailyCnt + Define.iPM3DailyCnt;
-            double dPerformance = ((double)(iDailyAllCnt) / Define.iCapa) * 100;
-            string strPerformance = dPerformance.ToString("0.000");
-
-            HostConnection.Host_Set_Log(Global.hostEquipmentInfo_Log, 
-                DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd"), 
-                Define.iPM1DailyCnt.ToString("00"), 
-                Define.iPM2DailyCnt.ToString("00"), 
-                Define.iPM3DailyCnt.ToString("00"), 
-                "0",
-                strPerformance);
-            */
-        }
+        }        
 
         private void RUNTIME_LOAD()
         {
@@ -836,16 +817,23 @@ namespace FluxTool_CleanerSystem
 
         private void RUNTIME_UPDATE()
         {
-            double dPerformance = (Define.dTodayRunTime / (double)Define.iSemiAutoTime) * 100;
+            // Only daily count performance
+            int iDailyAllCnt = Define.iPM1DailyCnt + Define.iPM2DailyCnt + Define.iPM3DailyCnt;
+            double dPerformance = ((double)(iDailyAllCnt) / Define.iCapa) * 100;
             string strPerformance = dPerformance.ToString("0.000");
+
+            // 실제 가동 시간 기준 performance
+            double dTimePerformance = (Define.dTodayRunTime / (double)Define.iSemiAutoTime) * 100;
+            string strTimePerformance = dTimePerformance.ToString("0.000");
 
             HostConnection.Host_Set_Log(Global.hostEquipmentInfo_Log,
                 DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd"),
                 Define.iPM1DailyCnt.ToString("00"),
                 Define.iPM2DailyCnt.ToString("00"),
-                Define.iPM3DailyCnt.ToString("00"),
+                Define.iPM3DailyCnt.ToString("00"),                
+                strPerformance,
                 Define.dTodayRunTime.ToString(),
-                strPerformance);
+                strTimePerformance);
         }
 
         private void RUNTIME_INIT()
@@ -1010,175 +998,175 @@ namespace FluxTool_CleanerSystem
         {
             if (Define.bSimulation)
             {
-                IOClass.diVal.checkLow[(int)DigInputList.EMO_Switch_i - 16] = "On";
-                IOClass.diVal.checkLow[(int)DigInputList.Water_Level_High_i - 16] = "On";
-                IOClass.diVal.checkLow[(int)DigInputList.Water_Level_Low_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.EMO_Switch_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Water_Level_High_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Water_Level_Low_i - 16] = "On";
 
-                IOClass.diVal.checkLow[(int)DigInputList.Front_Door_Sensor_i - 16] = "On";
-                IOClass.diVal.checkLow[(int)DigInputList.Left_Door_Sensor_i - 16] = "On";
-                IOClass.diVal.checkLow[(int)DigInputList.Right_Door_Sensor_i - 16] = "On";
-                IOClass.diVal.checkLow[(int)DigInputList.Back_Door_Sensor_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Front_Door_Sensor_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Left_Door_Sensor_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Right_Door_Sensor_i - 16] = "On";
+                DIOClass.diVal.checkLow[(int)DigInputList.Back_Door_Sensor_i - 16] = "On";
 
                 // CH1
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Open_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "On";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Close_o] == "On"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "On";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH1_Door_Cl_i - 16] = "Off";
                 }
 
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Fwd_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "On";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "On";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Bwd_o] == "On"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "Off";
 
                     if (Define.seqCylinderMode[(byte)MODULE._PM1] == Define.MODE_CYLINDER_HOME)                        
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "On";
                     }
                     else
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "On";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
                     }
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH1_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Cylinder_Home_i] = "Off";
                 }
 
-                IOClass.diVal.checkHigh[(int)DigInputList.CH1_Tool_Detect1_i] = "On";
-                IOClass.diVal.checkHigh[(int)DigInputList.CH1_Tool_Detect2_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Tool_Detect1_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH1_Tool_Detect2_i] = "On";
                 
 
                 // CH2
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Open_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "On";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Close_o] == "On"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "On";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH2_Door_Cl_i - 16] = "Off";
                 }
 
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Fwd_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "On";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "On";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Bwd_o] == "On"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "Off";
 
                     if (Define.seqCylinderMode[(byte)MODULE._PM2] == Define.MODE_CYLINDER_HOME)
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "On";
                     }
                     else
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "On";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
                     }
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH2_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Cylinder_Home_i] = "Off";
                 }
 
-                IOClass.diVal.checkHigh[(int)DigInputList.CH2_Tool_Detect1_i] = "On";
-                IOClass.diVal.checkHigh[(int)DigInputList.CH2_Tool_Detect2_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Tool_Detect1_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH2_Tool_Detect2_i] = "On";
 
                 
                 // CH3
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Open_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "On";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Close_o] == "On"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "On";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "On";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Open_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Door_Close_o] == "Off"))
                 {
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "Off";
-                    IOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Op_i - 16] = "Off";
+                    DIOClass.diVal.checkLow[(int)DigInputList.CH3_Door_Cl_i - 16] = "Off";
                 }
 
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Fwd_o] == "On") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "On";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "On";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Bwd_o] == "On"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "Off";
 
                     if (Define.seqCylinderMode[(byte)MODULE._PM3] == Define.MODE_CYLINDER_HOME)                        
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "On";
                     }
                     else
                     {
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "On";
-                        IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "On";
+                        DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
                     }
                 }
 
                 if ((Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Fwd_o] == "Off") && (Global.digSet.curDigSet[(int)DigOutputList.CH3_Cylinder_Bwd_o] == "Off"))
                 {
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
-                    IOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Fwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Bwd_i] = "Off";
+                    DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Cylinder_Home_i] = "Off";
                 }
 
-                IOClass.diVal.checkHigh[(int)DigInputList.CH3_Tool_Detect1_i] = "On";
-                IOClass.diVal.checkHigh[(int)DigInputList.CH3_Tool_Detect2_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Tool_Detect1_i] = "On";
+                DIOClass.diVal.checkHigh[(int)DigInputList.CH3_Tool_Detect2_i] = "On";
                 
             }
         }

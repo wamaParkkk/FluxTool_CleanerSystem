@@ -261,7 +261,7 @@ namespace FluxTool_CleanerSystem
             digSet.curDigSet = new string[64];
             for (int i = 0; i < 64; i++)
             {
-                digSet.curDigSet[i] = IOClass.doVal.readDigOut[i];
+                digSet.curDigSet[i] = DIOClass.doVal.readDigOut[i];
             }
 
             prcsInfo.prcsRecipeName = new string[Define.MODULE_MAX - 1];
@@ -388,9 +388,9 @@ namespace FluxTool_CleanerSystem
             {
                 if ((0 <= ioName) && (15 >= ioName))
                 {
-                    if (IOClass.diVal.checkHigh[ioName] != null)
+                    if (DIOClass.diVal.checkHigh[ioName] != null)
                     {
-                        return IOClass.diVal.checkHigh[ioName];
+                        return DIOClass.diVal.checkHigh[ioName];
                     }                        
                     else
                     {
@@ -399,9 +399,9 @@ namespace FluxTool_CleanerSystem
                 }
                 else if ((16 <= ioName) && (32 >= ioName))
                 {
-                    if (IOClass.diVal.checkLow[ioName - 16] != null)
+                    if (DIOClass.diVal.checkLow[ioName - 16] != null)
                     {
-                        return IOClass.diVal.checkLow[ioName - 16];
+                        return DIOClass.diVal.checkLow[ioName - 16];
                     }                        
                     else
                     {
@@ -429,11 +429,11 @@ namespace FluxTool_CleanerSystem
                 {
                     if ((0 <= ioName) && (31 >= ioName))
                     {
-                        IOClass.SelectHighIndex(ioName, setValue);
+                        DIOClass.SelectHighIndex(ioName, setValue);
                     }
                     else if ((32 <= ioName) && (63 >= ioName))
                     {
-                        IOClass.SelectHighIndex2(ioName, setValue);
+                        DIOClass.SelectHighIndex2(ioName, setValue);
                     }
                     
                     IO_StrToInt.io_code = ioName.ToString();

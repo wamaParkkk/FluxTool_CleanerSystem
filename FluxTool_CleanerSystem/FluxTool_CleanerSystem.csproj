@@ -58,7 +58,7 @@
   <ItemGroup>
     <Reference Include="Ajin_IO_driver, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Ajin_IO_driver.dll</HintPath>
+      <HintPath>..\..\Ajin_IO_driver\Ajin_IO_driver\bin\Release\Ajin_IO_driver.dll</HintPath>
     </Reference>
     <Reference Include="MsSqlManagerLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

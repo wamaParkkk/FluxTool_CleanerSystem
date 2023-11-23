@@ -389,8 +389,8 @@ namespace FluxTool_CleanerSystem.Squence
             }
             else
             {
-                if ((Global.GetDigValue((int)DigInputList.CH3_Tool_Detect1_i) == "On") &&
-                    (Global.GetDigValue((int)DigInputList.CH3_Tool_Detect2_i) == "On"))
+                if ((Global.GetDigValue((int)DigInputList.CH3_Tool_Detect1_i) == "On")) //&&
+                    //(Global.GetDigValue((int)DigInputList.CH3_Tool_Detect2_i) == "On"))
                 {
                     F_INC_STEP();
                 }

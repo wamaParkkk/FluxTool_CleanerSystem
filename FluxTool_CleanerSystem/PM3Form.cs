@@ -323,8 +323,8 @@ namespace FluxTool_CleanerSystem
                     CylinderHomeSns.BackColor = Color.Silver;
             }
 
-            if ((Global.GetDigValue((int)DigInputList.CH3_Tool_Detect1_i) == "On") &&
-                (Global.GetDigValue((int)DigInputList.CH3_Tool_Detect2_i) == "On"))
+            if ((Global.GetDigValue((int)DigInputList.CH3_Tool_Detect1_i) == "On")) //&&
+                //(Global.GetDigValue((int)DigInputList.CH3_Tool_Detect2_i) == "On"))
             {
                 if (ToolDetectSns.BackColor != Color.OrangeRed)
                     ToolDetectSns.BackColor = Color.OrangeRed;

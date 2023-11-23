@@ -1,0 +1,8 @@
+[2023-09-21, 10:07:52] CH1_Side_AirValve_o :  Off
+[2023-09-21, 10:07:52] CH1_WaterValve_o :  Off
+[2023-09-21, 10:07:52] CH1_Booster_AirValve_o :  Off
+[2023-09-21, 10:07:52] CH1_Air_Knife_o :  Off
+[2023-09-21, 10:07:52] Hot_Water_Pump_o :  Off
+[2023-09-21, 10:07:52] Hot_WaterHeater_o :  Off
+[2023-09-21, 10:07:52] Main_Water_Supply :  Off
+[2023-09-21, 10:07:52] Buzzer_o :  On

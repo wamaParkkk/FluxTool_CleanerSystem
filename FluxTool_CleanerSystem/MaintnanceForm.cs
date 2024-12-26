@@ -45,9 +45,6 @@ namespace FluxTool_CleanerSystem
 
             if (m_waterTankForm.Visible != false)
                 m_waterTankForm.Visible = false;
-
-            // Heater controller init
-            SerialComm.HanyoungNXClass.HanyoungNX_Init();
         }
 
         private void MaintnanceForm_Activated(object sender, EventArgs e)

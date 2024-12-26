@@ -3,29 +3,28 @@ using System.IO;
 using System.IO.Ports;
 using System.Text;
 using System.Threading;
-using System.Windows.Forms;
 
 namespace FluxTool_CleanerSystem.SerialComm
 {    
-    public class HanyoungNXClass
+    public class HanyoungNuxClass
     {
-        static int RS_NUL = 0x00;
-        static int RS_SOH = 0x01;
-        static int RS_STX = 0x02;
-        static int RS_ETX = 0x03;
-        static int RS_LF = 0x0A;
-        static int RS_CR = 0x0D;
-        static int RS_NAK = 0x15;
+        private int RS_NUL = 0x00;
+        private int RS_SOH = 0x01;
+        private int RS_STX = 0x02;
+        private int RS_ETX = 0x03;
+        private int RS_LF = 0x0A;
+        private int RS_CR = 0x0D;
+        private int RS_NAK = 0x15;
 
-        static SerialPort _serialPort;
-        static bool _continue = true;
-        static bool bSet_flag = false;
+        private SerialPort _serialPort;
+        private bool _continue = true;
+        private bool bSet_flag = false;
 
-        static bool bThread_start;
-        private static Thread readThread;
-        static string readData = string.Empty;
+        private bool bThread_start;
+        private Thread readThread;
+        private string readData = string.Empty;
 
-        public static void HanyoungNX_Init()
+        public void HanyoungNux_Init()
         {
             bool bRtn;                        
             
@@ -46,7 +45,7 @@ namespace FluxTool_CleanerSystem.SerialComm
             }
         }
 
-        private static bool DRV_INIT()
+        private bool DRV_INIT()
         {
             if (InitPortInfo())
             {
@@ -71,12 +70,12 @@ namespace FluxTool_CleanerSystem.SerialComm
             return true;
         }
 
-        private static bool InitPortInfo()
+        private bool InitPortInfo()
         {
             _serialPort = new SerialPort();
 
             string sTmpData;
-            string FileName = "HanyoungNXPortInfo.txt";
+            string FileName = "HanyoungNuxPortInfo.txt";
 
             try
             {
@@ -118,13 +117,13 @@ namespace FluxTool_CleanerSystem.SerialComm
                 }
             }
             catch (IOException ex)
-            {
-                MessageBox.Show(ex.Message, "알림");
+            {                
+                Global.EventLog($"{ex.Message}", "TEMP", "Event");
                 return false;
             }            
         }
 
-        private static bool PortOpen()
+        private bool PortOpen()
         {
             try
             {
@@ -148,24 +147,24 @@ namespace FluxTool_CleanerSystem.SerialComm
                 return false;
             }
             catch (IOException ex)
-            {
-                MessageBox.Show(ex.Message, "알림");
+            {                
+                Global.EventLog($"{ex.Message}", "TEMP", "Event");
                 return false;
             }            
         }
 
-        private static void DRV_CLOSE()
+        public void DRV_CLOSE()
         {
             if (bThread_start)
             {
-                readThread.Abort();
+                readThread.Abort();                
             }
             
             Global.EventLog("Heater communication driver has been terminated", "TEMP", "Event");
         }
 
-        // HanyoungNX Thread //////////////////////////////////////////////////////////////////////////
-        private static void Read()
+        // HanyoungNux Thread /////////////////////////////////////////////////////////////////////////
+        private void Read()
         {            
             while (_continue)
             {
@@ -186,58 +185,67 @@ namespace FluxTool_CleanerSystem.SerialComm
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////
         
-        private static void Parameter_read()
-        {
-            readData = string.Empty;
-
-            // PV
-            string send_Command = string.Format("{0}{1:D2}DRS,01,0001{2}{3}", Convert.ToChar(RS_STX), 1, Convert.ToChar(RS_CR), Convert.ToChar(RS_LF));
-            _serialPort.Write(send_Command);
-
-            Thread.Sleep(10);
-
-            readData = _serialPort.ReadLine();
-            if (readData.Length > 1)
+        private void Parameter_read()
+        {            
+            try
             {
-                bool bFind = readData.Contains("OK");
-                if (bFind)
+                readData = string.Empty;
+
+                // PV
+                string send_Command = string.Format("{0}{1:D2}DRS,01,0000{2}{3}", Convert.ToChar(RS_STX), 1, Convert.ToChar(RS_CR), Convert.ToChar(RS_LF));
+                _serialPort.Write(send_Command);
+
+                Thread.Sleep(10);
+
+                readData = _serialPort.ReadLine();
+                if (readData.Length > 1)
                 {
-                    string strTmp = readData.Substring(10, 4);
-                    // 16진수 string값을 10진수로 변환
-                    int iDecimal = Int32.Parse(strTmp, System.Globalization.NumberStyles.HexNumber);
-                    Define.temp_PV = iDecimal * 0.1;
-                }
-            }            
-        }
-
-        public static void set_Temp(double dVal)
-        {
-            bSet_flag = true;
-
-            int setVal = 0;
-
-            readData = string.Empty;
-
-            string send_Command = string.Format("{0}{1:D2}DWS,01,0300,0001{2}{3}", Convert.ToChar(RS_STX), 1, Convert.ToChar(RS_CR), Convert.ToChar(RS_LF));
-            _serialPort.Write(send_Command);
-            
-            readData = _serialPort.ReadLine();
-            if (readData.Length > 1)
-            {
-                bool bFind = readData.Contains("OK");
-                if (bFind)
-                {
-                    Thread.Sleep(100);
-
-                    setVal = Convert.ToInt32(dVal * 10.0);
-                    send_Command = string.Format("{0}{1:D2}DWS,01,0301,{2:X4}{3}{4}", Convert.ToChar(RS_STX), 1, setVal, Convert.ToChar(RS_CR), Convert.ToChar(RS_LF));
-                    _serialPort.Write(send_Command);                    
+                    bool bFind = readData.Contains("OK");
+                    if (bFind)
+                    {
+                        string strTmp = readData.Substring(10, 4);
+                        // 16진수 string값을 10진수로 변환
+                        int iDecimal = Int32.Parse(strTmp, System.Globalization.NumberStyles.HexNumber);
+                        Define.temp_PV = iDecimal * 0.1;
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                Global.EventLog($"{ex.Message}", "TEMP", "Event");
+            }                        
+        }
 
-            Thread.Sleep(10);
+        public void set_Temp(double dVal)
+        {
+            try
+            {
+                bSet_flag = true;
+                readData = string.Empty;
 
-            bSet_flag = false;            
+                int setVal = 0;                           
+                setVal = Convert.ToInt32(dVal * 10.0);
+                string send_Command = string.Format("{0}{1:D2}DWS,01,0103,{2:X4}{3}{4}", Convert.ToChar(RS_STX), 1, setVal, Convert.ToChar(RS_CR), Convert.ToChar(RS_LF));
+                _serialPort.Write(send_Command);
+
+                Thread.Sleep(10);
+
+                readData = _serialPort.ReadLine();
+                if (readData.Length > 1)
+                {
+                    bool bFind = readData.Contains("OK");
+                    if (bFind)                    
+                        Global.EventLog($"Temperature setting in the controller was completed successfully", "TEMP", "Event");
+                    else
+                        Global.EventLog($"Controller temperature setting failed", "TEMP", "Event");
+                }                
+
+                bSet_flag = false;
+            }
+            catch (Exception ex)
+            {
+                Global.EventLog($"{ex.Message}", "TEMP", "Event");
+            }            
         }
     }
 }

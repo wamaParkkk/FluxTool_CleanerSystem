@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluxTool_CleanerSystem.SerialComm;
+using System;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
@@ -17,6 +18,8 @@ namespace FluxTool_CleanerSystem
 
         AnalogDlg analogDlg;
         DigitalDlg digitalDlg;
+
+        HanyoungNuxClass heater_ctrl;
 
         private Timer logdisplayTimer = new Timer();
 
@@ -40,6 +43,8 @@ namespace FluxTool_CleanerSystem
             logdisplayTimer.Interval = 500;
             logdisplayTimer.Elapsed += new ElapsedEventHandler(Eventlog_Display);
             logdisplayTimer.Start();
+
+            heater_ctrl = new HanyoungNuxClass();
         }
 
         private void SetDoubleBuffered(Control control, bool doubleBuffered = true)
@@ -358,7 +363,7 @@ namespace FluxTool_CleanerSystem
                 textBoxSettingTemp.Text = analogDlg.m_strResult;
 
                 Define.temp_SV = double.Parse(textBoxSettingTemp.Text);
-                SerialComm.HanyoungNXClass.set_Temp(Define.temp_SV);
+                heater_ctrl.set_Temp(Define.temp_SV);
             }
         }
 

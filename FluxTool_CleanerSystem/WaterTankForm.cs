@@ -1,5 +1,4 @@
-﻿using FluxTool_CleanerSystem.SerialComm;
-using System;
+﻿using System;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
@@ -17,9 +16,7 @@ namespace FluxTool_CleanerSystem
         string ModuleName;
 
         AnalogDlg analogDlg;
-        DigitalDlg digitalDlg;
-
-        HanyoungNuxClass heater_ctrl;
+        DigitalDlg digitalDlg;        
 
         private Timer logdisplayTimer = new Timer();
 
@@ -355,16 +352,14 @@ namespace FluxTool_CleanerSystem
             try
             {
                 analogDlg = new AnalogDlg();
-                analogDlg.Text = "";
-                heater_ctrl = new HanyoungNuxClass();
+                analogDlg.Text = "";                
 
                 if (analogDlg.ShowDialog() == DialogResult.OK)
                 {
                     string strVal = analogDlg.m_strResult;
                     bool bResult = double.TryParse(strVal, out double dVal);
                     if (bResult)
-                    {
-                        heater_ctrl.set_Temp(dVal);
+                    {                        
                         textBoxSettingTemp.Text = dVal.ToString();
                     }
                 }

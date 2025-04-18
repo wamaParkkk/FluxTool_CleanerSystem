@@ -20,10 +20,7 @@ namespace FluxTool_CleanerSystem
         ToolCheckInfoForm toolCheckInfoForm;
         DigitalDlg digitalDlg;
 
-        private Timer logdisplayTimer = new Timer();
-
-        bool bToolSns1 = false;
-        bool bToolSns2 = false;
+        private Timer logdisplayTimer = new Timer();        
 
         public PM1Form(MaintnanceForm parent)
         {
@@ -66,11 +63,7 @@ namespace FluxTool_CleanerSystem
             if (Define.bChamberDisable[module])
             {
                 if (btnProcess.Enabled != false)
-                {
-                    btnProcess.Enabled = false;
-                    
-                    HostConnection.Host_Set_RunStatus(Global.hostEquipmentInfo, ModuleName, "Disable");
-                }                    
+                    btnProcess.Enabled = false;                                                        
 
                 if (btnRetry.Enabled != false)
                     btnRetry.Enabled = false;
@@ -182,11 +175,7 @@ namespace FluxTool_CleanerSystem
                 else if (Define.seqMode[module] == Define.MODE_IDLE)
                 {
                     if (!btnProcess.Enabled)
-                    {
-                        btnProcess.Enabled = true;
-
-                        HostConnection.Host_Set_RunStatus(Global.hostEquipmentInfo, ModuleName, "Idle");
-                    }                        
+                        btnProcess.Enabled = true;                                              
 
                     if (btnProcess.BackColor != Color.Transparent)
                         btnProcess.BackColor = Color.Transparent;
@@ -333,41 +322,7 @@ namespace FluxTool_CleanerSystem
             {
                 if (ToolDetectSns.BackColor != Color.Silver)
                     ToolDetectSns.BackColor = Color.Silver;
-            }
-
-            if (Global.GetDigValue((int)DigInputList.CH1_Tool_Detect1_i) == "On")
-            {
-                if (!bToolSns1)
-                {
-                    HostConnection.Host_Set_ToolSensor1(Global.hostEquipmentInfo, ModuleName, "On");
-                    bToolSns1 = true;
-                }                    
-            }
-            else
-            {
-                if (bToolSns1)
-                {
-                    HostConnection.Host_Set_ToolSensor1(Global.hostEquipmentInfo, ModuleName, "Off");
-                    bToolSns1 = false;
-                }                
-            }
-
-            if (Global.GetDigValue((int)DigInputList.CH1_Tool_Detect2_i) == "On")
-            {
-                if (!bToolSns2)
-                {
-                    HostConnection.Host_Set_ToolSensor2(Global.hostEquipmentInfo, ModuleName, "On");
-                    bToolSns2 = true;
-                }
-            }
-            else
-            {
-                if (bToolSns2)
-                {
-                    HostConnection.Host_Set_ToolSensor2(Global.hostEquipmentInfo, ModuleName, "Off");
-                    bToolSns2 = false;
-                }
-            }
+            }            
 
             // Output display
             if (Global.digSet.curDigSet[(int)DigOutputList.CH1_Door_Close_o] == "On")

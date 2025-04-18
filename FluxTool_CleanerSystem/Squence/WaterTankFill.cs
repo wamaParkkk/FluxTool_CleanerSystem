@@ -1,5 +1,4 @@
-﻿using FluxTool_CleanerSystem.SerialComm;
-using System;
+﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -9,9 +8,7 @@ namespace FluxTool_CleanerSystem.Squence
     {
         Thread thread;
         private new TStep step;
-        Alarm_List alarm_List;  // Alarm list
-
-        HanyoungNuxClass heater_ctrl;
+        Alarm_List alarm_List;  // Alarm list        
 
         public WaterTankFill()
         {
@@ -20,9 +17,7 @@ namespace FluxTool_CleanerSystem.Squence
             
             thread = new Thread(new ThreadStart(Execute));
             
-            alarm_List = new Alarm_List();
-
-            heater_ctrl = new HanyoungNuxClass();
+            alarm_List = new Alarm_List();            
 
             thread.Start();
         }
@@ -209,8 +204,7 @@ namespace FluxTool_CleanerSystem.Squence
             if (step.Flag)
             {
                 // 온도 셋팅
-                Define.temp_SV = Configure_List.Water_Heating_Temp;
-                heater_ctrl.set_Temp(Define.temp_SV);
+                Define.temp_SV = Configure_List.Water_Heating_Temp;                
 
                 //Thread.Sleep(500);
                 Task.Delay(500);

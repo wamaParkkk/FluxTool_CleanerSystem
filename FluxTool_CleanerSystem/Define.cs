@@ -435,6 +435,13 @@ namespace FluxTool_CleanerSystem
 
         // HanyoungNX Heater 변수      
         public static double temp_PV;
-        public static double temp_SV;        
+        public static double temp_SV;
+
+        // Sql서버에 장비 상태 업로드 변수
+        public static string EqType;
+        public static string EqLineCode;
+        public static string EqAsset;        
+        public static string EqRemarks1;
+        public static string EqRemarks2;
     }    
 }

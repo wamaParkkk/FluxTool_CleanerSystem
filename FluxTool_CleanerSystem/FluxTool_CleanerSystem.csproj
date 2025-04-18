@@ -62,7 +62,7 @@
     </Reference>
     <Reference Include="MsSqlManagerLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\MsSqlManagerLibrary\MsSqlManagerLibrary\bin\Release\MsSqlManagerLibrary.dll</HintPath>
+      <HintPath>..\..\MsSqlManagerLibrary\MsSqlManagerLibrary\bin\Debug\MsSqlManagerLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
@@ -193,7 +193,6 @@
     <Compile Include="RecipeSelectForm.Designer.cs">
       <DependentUpon>RecipeSelectForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SerialComm\HanyoungNux_Temp.cs" />
     <Compile Include="Squence\PM1Cylinder.cs" />
     <Compile Include="Squence\PM1Process.cs" />
     <Compile Include="Squence\PM2Cylinder.cs" />
@@ -351,6 +350,8 @@
     <None Include="images\ExitButton.png" />
     <None Include="images\AlarmButton.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SerialComm\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
